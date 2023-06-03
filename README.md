@@ -1,3 +1,3 @@
 # BuscadorPrecosStreaming
 
-Buscar os preços dos principais serviços de Streaming do Brasil
+Busca os preços dos principais serviços de Streaming do Brasil
