@@ -146,14 +146,14 @@ class BuscadorPrecosStreaming:
 if __name__ == "__main__":            
     buscador = BuscadorPrecosStreaming()
     # print(buscador.appleTvStreaming())
-    # buscador.primeVideo()
-    # buscador.hboMax()
-    # buscador.netFlix()    
-    # buscador.appleTv()
-    # buscador.paramount()
-    # buscador.disneyStarLionsgate()
-    # buscador.playplus()
-    # buscador.discovery()
+    buscador.primeVideo()
+    buscador.hboMax()  
+    buscador.appleTv()
+    buscador.paramount()
+    buscador.disneyStarLionsgate()
+    buscador.playplus()
+    buscador.discovery()
+    buscador.netFlix()    
 
 
 
