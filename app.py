@@ -43,19 +43,18 @@ class BuscadorPrecosStreaming:
     
     # bug
     def appleTv(self):
-        self.driver.get("https://tv.apple.com/br/channel/tvs.sbd.4000")
-        elem = self.driver.find_element(By.XPATH, "/html/body/main/div[3]/section[3]/div/ul/li[2]/h3/button")
-        elem.click()
-        elem = self.driver.find_element(By.XPATH, "/html/body/main/div[3]/section[3]/div/ul/li[2]/div")
+        self.driver.get("https://www.apple.com/br/apple-tv-plus/#:~:text=Ap%C3%B3s%20o%20teste%20gratuito%20de,TV%2B%20com%20sua%20fam%C3%ADlia%202.")
+        # elem = self.driver.find_element(By.XPATH, "/html/body/main/div[3]/section[3]/div/ul/li[2]/h3/button")
+        # elem.click()
+        elem = self.driver.find_element(By.XPATH, "/html/body/main/section[3]/div/div/div[2]/h3")
         print("AppleTv+:"+elem.text)
 
 if __name__ == "__main__":            
     buscador = BuscadorPrecosStreaming()
-    buscador.primeVideo()
-    buscador.hboMax()
-    buscador.netFlix()
-    # bug
-    # buscador.appleTv()
+    # buscador.primeVideo()
+    # buscador.hboMax()
+    # buscador.netFlix()    
+    buscador.appleTv()
 
 
 
