@@ -103,6 +103,18 @@ class BuscadorPrecosStreaming:
         elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[4]/p")        
         print("Netflix (Premium):"+elem.text)
     
+
+    def appleTvStreaming(self) -> Streaming:
+        nome = "AppleTv"
+        self.driver.get("https://www.apple.com/br/apple-tv-plus/#:~:text=Ap%C3%B3s%20o%20teste%20gratuito%20de,TV%2B%20com%20sua%20fam%C3%ADlia%202.")
+        
+        elem = self.driver.find_element(By.XPATH, "/html/body/main/section[3]/div/div/div[2]/h3")
+        preco = elem.text.replace("por mês", "").strip()    
+
+        elem = self.driver.find_element(By.XPATH, "/html/body/main/section[5]/div/div[1]/figure")
+        logo = elem.get_attribute("outerHTML")
+        
+        return Streaming(nome, preco, logo)
     
     def appleTv(self):
         self.driver.get("https://www.apple.com/br/apple-tv-plus/#:~:text=Ap%C3%B3s%20o%20teste%20gratuito%20de,TV%2B%20com%20sua%20fam%C3%ADlia%202.")
@@ -133,15 +145,15 @@ class BuscadorPrecosStreaming:
 # python3.10 app.py 
 if __name__ == "__main__":            
     buscador = BuscadorPrecosStreaming()
-    # print(buscador.netFlixStreaming())
-    buscador.primeVideo()
-    buscador.hboMax()
-    buscador.netFlix()    
-    buscador.appleTv()
-    buscador.paramount()
-    buscador.disneyStarLionsgate()
-    buscador.playplus()
-    buscador.discovery()
+    # print(buscador.appleTvStreaming())
+    # buscador.primeVideo()
+    # buscador.hboMax()
+    # buscador.netFlix()    
+    # buscador.appleTv()
+    # buscador.paramount()
+    # buscador.disneyStarLionsgate()
+    # buscador.playplus()
+    # buscador.discovery()
 
 
 
