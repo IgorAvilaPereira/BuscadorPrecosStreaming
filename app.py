@@ -97,12 +97,13 @@ class BuscadorPrecosStreaming:
 
     def netFlix(self) -> str:
         self.driver.get("https://help.netflix.com/pt/node/24926")        
-        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[3]/p")
-        # print("Netflix (Padrão):"+elem.text)
-        resultado = "Netflix (Padrão):"+elem.text
+        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[3]/p")        
+        resultado = "Netflix:\n"        
+        # "Padrão:"
+        resultado = resultado + "*"+elem.text        
+        # Premium
         elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[4]/p")        
-        # print("Netflix (Premium):"+elem.text)
-        resultado = resultado +"\n"+"Netflix (Premium):"+elem.text
+        resultado = resultado +"\n"+"*"+elem.text
         return resultado
     
 
@@ -150,21 +151,41 @@ class BuscadorPrecosStreaming:
 
 
 # python3.10 app.py 
-if __name__ == "__main__":            
-    print("Obtendo valores...")
-    buscador = BuscadorPrecosStreaming()
-    resultado = buscador.primeVideo()
-    resultado = resultado + "\n" + buscador.hboMax()  
-    resultado = resultado + "\n" + buscador.appleTv()
-    resultado = resultado + "\n" + buscador.paramount()
-    resultado = resultado + "\n" + buscador.disneyStarLionsgate()
-    resultado = resultado + "\n" + buscador.playplus()
-    resultado = resultado + "\n" + buscador.discovery()
-    resultado = resultado + "\n" + buscador.netFlix()    
-    print(resultado)
+if __name__ == "__main__":          
 
-    # print(buscador.appleTvStreaming())
+    buscador = BuscadorPrecosStreaming()
     
+    print("Obtendo valores...")
+    print(buscador.primeVideo())
+    print(buscador.hboMax())
+    print(buscador.appleTv())
+    print(buscador.paramount())
+    print(buscador.disneyStarLionsgate())
+    print(buscador.playplus())
+    print(buscador.discovery())
+    print(buscador.netFlix())
+
+
+    # from tkinter import *
+    # from tkinter import ttk
+    # from tkinter import messagebox
+    # root = Tk()
+    # root.geometry("400x400")
+    # frm = ttk.Frame(root, padding=10)
+    # frm.grid()
+    # messagebox.showinfo("BuscadorPreçosStreaming", "Obtendo Valores (espere algum tempo)")
+    # ttk.Label(frm, text=buscador.primeVideo()).grid(column=0, row=0)
+    # ttk.Label(frm, text=buscador.hboMax()).grid(column=0, row=1)
+    # ttk.Label(frm, text=buscador.appleTv()).grid(column=0, row=2)
+    # ttk.Label(frm, text=buscador.paramount()).grid(column=0, row=3)
+    # ttk.Label(frm, text=buscador.disneyStarLionsgate()).grid(column=0, row=4)
+    # ttk.Label(frm, text=buscador.playplus()).grid(column=0, row=5)
+    # ttk.Label(frm, text=buscador.discovery()).grid(column=0, row=6)
+    # ttk.Label(frm, text=buscador.netFlix()).grid(column=0, row=7)
+    # ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=8)
+    # root.mainloop()
+
+ 
 # import flet as ft
 # def main(page: ft.Page):
 #     buscador = BuscadorPrecosStreaming()
