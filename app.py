@@ -62,6 +62,12 @@ class BuscadorPrecosStreaming:
         elem = self.driver.find_element(By.XPATH, "/html/body/div[3]/div/div[3]/div/form/div[1]/div/div/div/div/div/div[2]/div[1]/h3")
         print("PlayPlus+:"+elem.text)
 
+    def discovery(self):
+        self.driver.get("https://www.discoveryplus.com/br/")
+        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/main/section[7]/div[3]/ul[1]/li[2]/div[3]")
+        print("Discovery+:"+elem.text)
+
+
 # python3.10 app.py 
 if __name__ == "__main__":            
     buscador = BuscadorPrecosStreaming()
@@ -71,7 +77,8 @@ if __name__ == "__main__":
     # buscador.appleTv()
     # buscador.paramount()
     # buscador.disneyStarLionsgate()
-    buscador.playplus()
+    # buscador.playplus()
+    buscador.discovery()
 
 
 
