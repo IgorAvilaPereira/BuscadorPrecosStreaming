@@ -56,7 +56,13 @@ class BuscadorPrecosStreaming:
         self.driver.get("https://www.disneyplus.com/pt-br?cid=DSS-Search-Google-71700000075038504-&s_kwcid=AL!8468!3!576459364510!e!!g!!disney%20plus&gad=1&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zpeDuXapVVyPaZYnHuzmWK0EQ5nfh7WNk_cf-T2Dspmytoku_FKA4aAoKqEALw_wcB&gclsrc=aw.ds")
         elem = self.driver.find_element(By.XPATH, "/html/body/main/div/section/div/div[1]/div[1]/div[4]/div/a/span")
         print("Combo (Disney+, Star+ e Lionsgate+):"+elem.text)
+    
+    def playplus(self):
+        self.driver.get("https://www.playplus.com/flow/plans")
+        elem = self.driver.find_element(By.XPATH, "/html/body/div[3]/div/div[3]/div/form/div[1]/div/div/div/div/div/div[2]/div[1]/h3")
+        print("PlayPlus+:"+elem.text)
 
+# python3.10 app.py 
 if __name__ == "__main__":            
     buscador = BuscadorPrecosStreaming()
     # buscador.primeVideo()
@@ -64,7 +70,8 @@ if __name__ == "__main__":
     # buscador.netFlix()    
     # buscador.appleTv()
     # buscador.paramount()
-    buscador.disneyStarLionsgate()
+    # buscador.disneyStarLionsgate()
+    buscador.playplus()
 
 
 
