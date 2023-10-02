@@ -11,6 +11,11 @@ from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
 
+from selenium import webdriver                  # Import selenium into your program
+from selenium.webdriver.common.keys import Keys # Import keys of selenium web driver
+import geckodriver_autoinstaller                # import Geckodriver into your program
+
+
 # class Streaming:
 
 #     def __init__(self, nome, preco, logo):
@@ -23,15 +28,18 @@ from selenium.webdriver.chrome.options import Options
 
 class BuscadorPrecosStreaming:            
 
-    def __init__(self, assistir = False): 
+    def __init__(self, assistir = True): 
+        
+        geckodriver_autoinstaller.install()             # Get the latest version every day on 1st excution of your program
         # se quiser não ver nada
-        if (assistir is False):
-            options = Options()
-            options.add_argument("--headless=new")
-            self.driver = webdriver.Chrome(options=options)
-        else: 
+        if (assistir is False):            
+            pass
+            # fireFoxOptions = webdriver.FirefoxOptions()            
+            # self.driver = webdriver.Firefox(options=fireFoxOptions)                    # initiate the firefox driver         
+        else:                                     
+            self.driver = webdriver.Firefox()                    # initiate the firefox driver
             # se quiser ver a execucao no navegador
-            self.driver = webdriver.Chrome()
+            # self.driver = webdriver.Chrome()
 
     # def primeVideoStreaming(self) -> Streaming:
     #     # nome
@@ -157,12 +165,20 @@ if __name__ == "__main__":
     
     print("Obtendo valores...")
     print(buscador.primeVideo())
-    print(buscador.hboMax())
+    # bug
+    # print(buscador.hboMax()) 
+
     print(buscador.appleTv())
-    print(buscador.paramount())
+    print(buscador.paramount())    
+    # bug
     # print(buscador.disneyStarLionsgate())
-    print(buscador.playplus())
-    print(buscador.discovery())
+
+    # bug
+    # print(buscador.playplus())
+    
+    # bug
+    # print(buscador.discovery())
+
     print(buscador.netFlix())
 
 

@@ -1,0 +1,237 @@
+1696250726187	geckodriver	INFO	Listening on 127.0.0.1:44875
+1696250726731	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegPRHva"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696250727824	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696250728048	Marionette	INFO	Listening on port 44921
+WebDriver BiDi listening on ws://127.0.0.1:55701
+Read port: 44921
+1696250728360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55701/devtools/browser/6923d4f9-91b8-4d4e-8e91-e3d776f6b96d
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 564: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+JavaScript warning: https://cdn.optimizely.com/js/19992430004.js, line 2: Script terminated by timeout at:
+getFrames@https://cdn.optimizely.com/js/19992430004.js:2:193031
+w@https://cdn.optimizely.com/js/19992430004.js:2:204811
+
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1696250737877	Marionette	INFO	Stopped listening on port 44921
+1696251116673	geckodriver	INFO	Listening on 127.0.0.1:60143
+1696251117214	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNrdgTr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251118034	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251118204	Marionette	INFO	Listening on port 41455
+Read port: 41455
+WebDriver BiDi listening on ws://127.0.0.1:48739
+1696251118284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48739/devtools/browser/37f06200-d80a-4805-8769-1cc14c06cf84
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 511: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-c890f27e6c704bb61c3d.min.js, line 2: Error: Request aborted
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 10: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:35644
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+1696251143417	geckodriver	INFO	Listening on 127.0.0.1:51769
+1696251143962	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "54707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecbDUL8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251144672	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251144799	Marionette	INFO	Listening on port 38527
+WebDriver BiDi listening on ws://127.0.0.1:54707
+Read port: 38527
+1696251145058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54707/devtools/browser/b10fab04-40f8-4d50-802d-789005a75b2e
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 564: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251181824	geckodriver	INFO	Listening on 127.0.0.1:57031
+1696251182336	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileANcDyZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251183576	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251183746	Marionette	INFO	Listening on port 41559
+WebDriver BiDi listening on ws://127.0.0.1:42507
+Read port: 41559
+1696251184070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42507/devtools/browser/89ed9a63-97f2-48ed-bb5c-5e354676d9df
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 564: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251209176	geckodriver	INFO	Listening on 127.0.0.1:37465
+1696251209731	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAm5CM9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251210681	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251210879	Marionette	INFO	Listening on port 44359
+WebDriver BiDi listening on ws://127.0.0.1:51813
+Read port: 44359
+1696251211210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51813/devtools/browser/1f526c12-4828-4a08-839a-2be15a7045fa
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 564: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 714: Script terminated by timeout at:
+g@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:714:155
+w/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:715:372
+e@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:714:421
+w@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:715:314
+r@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:716:374
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 10: Script terminated by timeout at:
+il@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:4768
+r@https://js-agent.newrelic.com/646.9e7a6b8d-1.237.1.min.js:2:6747
+sendX@https://js-agent.newrelic.com/646.9e7a6b8d-1.237.1.min.js:2:962
+s@https://js-agent.newrelic.com/page_view_timing-aggregate.7b2a53ee-1.237.1.min.js:1:1442
+2573/runHarvest/<@https://js-agent.newrelic.com/page_view_timing-aggregate.7b2a53ee-1.237.1.min.js:1:1556
+runHarvest@https://js-agent.newrelic.com/page_view_timing-aggregate.7b2a53ee-1.237.1.min.js:1:1542
+unload@https://js-agent.newrelic.com/page_view_timing-aggregate.7b2a53ee-1.237.1.min.js:1:596
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:14405
+
+1696251258901	geckodriver	INFO	Listening on 127.0.0.1:53117
+1696251259311	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileojFMZG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251260536	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251260783	Marionette	INFO	Listening on port 43757
+WebDriver BiDi listening on ws://127.0.0.1:38567
+Read port: 43757
+1696251260912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38567/devtools/browser/13bfa3d5-d08f-407b-b537-ca9630444c24
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 564: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-c890f27e6c704bb61c3d.min.js, line 2: Error: Request aborted
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 10: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:35644
+
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-007622-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-007622-001, line 1: WebGL context was lost.
+1696251319368	geckodriver	INFO	Listening on 127.0.0.1:39459
+1696251319876	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4sjv8r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251321521	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251321790	Marionette	INFO	Listening on port 41431
+WebDriver BiDi listening on ws://127.0.0.1:38593
+Read port: 41431
+1696251322212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38593/devtools/browser/a95efe27-aac5-4bae-afc5-b7e82965d1ae
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 511: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+j@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:60690
+require<[12]</S/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:60022
+S@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:60027
+require<[12]</e/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:64830
+e@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:64775
+require<[4]</exports.get@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:13281
+set@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:228275
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:205252
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:268321
+v@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:216419
+
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-c890f27e6c704bb61c3d.min.js, line 2: Error: Request aborted
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 10: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:35644
+
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-007622-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-007622-001, line 1: WebGL context was lost.
+1696251358549	geckodriver	INFO	Listening on 127.0.0.1:36227
+1696251358732	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerVXGPy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251360004	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696251360245	Marionette	INFO	Listening on port 43573
+WebDriver BiDi listening on ws://127.0.0.1:57479
+Read port: 43573
+1696251360613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57479/devtools/browser/b3d63448-9192-4389-9f66-14d1205ed6ba
+JavaScript error: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 564: TypeError: t[e] is undefined
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 276: Script terminated by timeout at:
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:276:670
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-c890f27e6c704bb61c3d.min.js, line 2: Error: Request aborted
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 10: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:10:35644
+
