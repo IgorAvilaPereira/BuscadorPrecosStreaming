@@ -32,7 +32,8 @@ class BuscadorPrecosStreaming:
         
         geckodriver_autoinstaller.install()             # Get the latest version every day on 1st excution of your program
         # se quiser não ver nada
-        if (assistir is False):            
+        if (assistir is False):           
+            # bug 
             pass
             # fireFoxOptions = webdriver.FirefoxOptions()            
             # self.driver = webdriver.Firefox(options=fireFoxOptions)                    # initiate the firefox driver         
