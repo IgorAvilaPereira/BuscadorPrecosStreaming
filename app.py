@@ -180,7 +180,8 @@ if __name__ == "__main__":
     # bug
     # print(buscador.discovery())
 
-    print(buscador.netFlix())
+    #  bug
+    # print(buscador.netFlix())
 
 
     # from tkinter import *
