@@ -32,11 +32,11 @@ class BuscadorPrecosStreaming:
         
         geckodriver_autoinstaller.install()             # Get the latest version every day on 1st excution of your program
         # se quiser não ver nada
-        if (assistir is False):           
-            # bug 
-            pass
-            # fireFoxOptions = webdriver.FirefoxOptions()            
-            # self.driver = webdriver.Firefox(options=fireFoxOptions)                    # initiate the firefox driver         
+        if (assistir is False):
+            fireFoxOptions = webdriver.FirefoxOptions()            
+            # fireFoxOptions.headless = True
+            fireFoxOptions.add_argument('-headless')
+            self.driver = webdriver.Firefox(options=fireFoxOptions)                    # initiate the firefox driver         
         else:                                     
             self.driver = webdriver.Firefox()                    # initiate the firefox driver
             # se quiser ver a execucao no navegador
@@ -162,7 +162,7 @@ class BuscadorPrecosStreaming:
 # python3.10 app.py 
 if __name__ == "__main__":          
 
-    buscador = BuscadorPrecosStreaming()
+    buscador = BuscadorPrecosStreaming(False)
     
     print("Obtendo valores...")
     print(buscador.primeVideo())
