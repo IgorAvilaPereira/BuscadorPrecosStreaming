@@ -4154,3 +4154,1596 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1701183197934	geckodriver	INFO	Listening on 127.0.0.1:55589
+1701183198497	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemAl6Is"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183199827	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183200049	Marionette	INFO	Listening on port 43397
+Read port: 43397
+WebDriver BiDi listening on ws://127.0.0.1:38939
+1701183200200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 94062, Main Thread] WARNING: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): dbind-WARNING **: 11:53:20.961: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied
+console.error: ({})
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:21.347: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:21.347: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:21.347: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:21.347: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:94062): WARNING **: 11:53:22.231: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38939/devtools/browser/95331e9a-da47-4d17-a145-2b5415a5af71
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:22.836: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:22.836: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:23.469: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:23.469: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:23.497: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:23.498: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:29.405: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:29.405: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:29.405: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:29.405: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.004: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.004: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.232: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.233: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.233: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.233: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.233: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.233: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.250: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.250: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.250: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.250: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.250: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.250: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.250: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.250: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.250: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.250: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.250: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.250: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.755: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.755: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.755: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.755: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.755: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.755: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.824: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.825: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:38.887: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:38.887: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.051: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.051: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.514: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.514: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.543: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.543: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.543: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.543: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.543: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.543: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.543: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.543: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.543: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.543: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: "Listener for event 'frame' did not return a promise."
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.682: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.682: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.725: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.725: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.725: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.725: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.725: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.725: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.725: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.725: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.725: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.725: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.725: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.725: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.726: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.726: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.777: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.777: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.778: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.778: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.779: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.779: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.779: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:39.779: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:39.779: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.398: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.398: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.398: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.398: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.398: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.398: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.398: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.398: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.398: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.398: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.398: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.398: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.399: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.399: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.399: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.399: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.399: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.399: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:40.399: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:40.399: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:42.680: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:42.680: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:42.680: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:42.680: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:42.680: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:42.680: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1701183229863	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+[Parent 94062, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-WARNING **: 11:53:52.311: invalid (NULL) pointer instance
+[Parent 94062, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:94062): GLib-GObject-CRITICAL **: 11:53:52.311: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1701183325727	geckodriver	INFO	Listening on 127.0.0.1:58583
+1701183326271	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYIpFAu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183327440	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183327631	Marionette	INFO	Listening on port 46141
+WebDriver BiDi listening on ws://127.0.0.1:48765
+Read port: 46141
+1701183327891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 95346, Main Thread] WARNING: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): dbind-WARNING **: 11:55:28.384: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied
+console.error: ({})
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:28.846: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:28.846: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:28.847: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:28.847: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 95346, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:95346): WARNING **: 11:55:29.614: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:48765/devtools/browser/2df2eb1c-f2ce-48c6-9c0c-f3b958c291d8
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:29.980: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:29.980: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:30.386: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:30.386: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:30.411: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:30.411: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:31.743: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:31.743: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 95346, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-WARNING **: 11:55:31.743: invalid (NULL) pointer instance
+[Parent 95346, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:95346): GLib-GObject-CRITICAL **: 11:55:31.743: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1701183359535	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701183368223	geckodriver	INFO	Listening on 127.0.0.1:35001
+1701183368773	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "34125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejImz31"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701183369306	Marionette	INFO	Marionette enabled
+1701183369404	Marionette	INFO	Listening on port 35899
+WebDriver BiDi listening on ws://127.0.0.1:34125
+Read port: 35899
+1701183369687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 96200, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:96200): WARNING **: 11:56:10.755: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:34125/devtools/browser/4f9637ad-7ce0-4707-bf0f-43f49187e48a
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js, line 1: Script terminated by timeout at:
+parseOptions@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:16389
+addKeyframe@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:150237
+addKeyframe@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:48575
+addKeyframe@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:5569
+addContinuousEvent@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:6870
+initTweens@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:230952
+renderSlides@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:225798
+onData@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:24:66205
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701183399422	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/e.getFID/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:77397
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3152
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701183466423	geckodriver	INFO	Listening on 127.0.0.1:50951
+1701183466983	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYFucCb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701183467625	Marionette	INFO	Marionette enabled
+1701183467731	Marionette	INFO	Listening on port 35957
+WebDriver BiDi listening on ws://127.0.0.1:55549
+Read port: 35957
+1701183468017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 97597, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:97597): WARNING **: 11:57:49.021: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55549/devtools/browser/4d2d45f5-6e10-4da7-911a-a6f0f5ccde30
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14255
+
+1701183491843	Marionette	INFO	Stopped listening on port 46141
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14255
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1701183493024	Marionette	INFO	Stopped listening on port 43397
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701183497744	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701183692111	geckodriver	INFO	Listening on 127.0.0.1:39381
+1701183692664	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJPorJW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183693694	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183693908	Marionette	INFO	Listening on port 40801
+WebDriver BiDi listening on ws://127.0.0.1:57755
+Read port: 40801
+1701183694183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 99657, Main Thread] WARNING: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): dbind-WARNING **: 12:01:34.668: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied
+console.error: ({})
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:34.985: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:34.985: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:34.985: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:34.985: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:99657): WARNING **: 12:01:35.570: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:57755/devtools/browser/e8da9a55-d1c3-48a5-946b-04f7e9277957
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:36.029: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:36.029: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:37.075: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:37.075: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:37.752: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:37.752: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:38.153: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:38.153: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:38.153: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:38.153: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:38.332: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:38.332: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 638: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:638:262
+
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:38.533: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:38.533: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:38.547: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:38.547: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:39.290: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:39.290: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:39.290: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:39.290: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:39.465: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:39.465: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: chrome://global/content/elements/videocontrols.js, line 113: Script terminated by timeout at:
+this.VideoControlsWidget<@chrome://global/content/elements/videocontrols.js:113:28
+@chrome://global/content/elements/videocontrols.js:215:10
+injectInlineVideo@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:213854
+@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:212352
+addComponent@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:123851
+initComponents@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:122911
+l/</<@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:122451
+
+JavaScript error: resource://gre/actors/UAWidgetsChild.sys.mjs, line 139: TypeError: sandbox[widgetName] is not a constructor
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:40.032: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:40.033: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:40.033: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:40.033: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:40.047: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:40.047: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 904: TypeError: this.contentWindow is null
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:43.465: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:43.465: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:43.465: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:43.465: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:43.533: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:43.533: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:43.764: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:43.765: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:43.781: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:43.781: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:45.639: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:45.639: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:45.762: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:45.762: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:45.762: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:45.762: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:45.890: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:45.890: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:46.832: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:46.832: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:46.858: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:46.858: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:46.858: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:46.858: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:46.864: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:46.864: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:47.495: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:47.495: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:47.495: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:47.495: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:47.598: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:47.598: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:47.893: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:47.893: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:47.894: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:47.894: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:47.918: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:47.918: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.554: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.554: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.554: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.554: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.652: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.652: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.833: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.833: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.900: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.900: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.900: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.900: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:48.914: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:48.914: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: ({})
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:50.764: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:50.764: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:56.125: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:56.125: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:01:56.125: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:01:56.125: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:02:02.501: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:02:02.501: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 99657, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-WARNING **: 12:02:02.501: invalid (NULL) pointer instance
+[Parent 99657, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:99657): GLib-GObject-CRITICAL **: 12:02:02.501: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://www.clarity.ms/s/0.7.18/clarity.js, line 2: Script terminated by timeout at:
+ei/<@https://www.clarity.ms/s/0.7.18/clarity.js:2:54166
+
+1701183723405	Marionette	INFO	Stopped listening on port 40801
+1701183759490	geckodriver	INFO	Listening on 127.0.0.1:41699
+1701183760048	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA1qYdz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183761094	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701183761361	Marionette	INFO	Listening on port 39921
+WebDriver BiDi listening on ws://127.0.0.1:33305
+Read port: 39921
+1701183761673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 100947, Main Thread] WARNING: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): dbind-WARNING **: 12:02:42.131: Couldn't connect to accessibility bus: Failed to connect to socket /root/.cache/at-spi/bus_0.0: Permission denied
+console.error: ({})
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:42.501: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:42.502: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:42.502: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:42.502: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:100947): WARNING **: 12:02:43.181: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33305/devtools/browser/b2e62a06-88b7-473e-a16d-32c9d86803fe
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:43.745: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:43.745: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:44.560: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:44.560: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:45.181: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:45.181: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:46.518: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:46.518: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:46.518: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:46.518: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:46.681: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:46.681: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 645: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:645:262
+
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:46.847: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:46.847: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:46.865: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:46.865: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:47.583: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:47.584: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:47.584: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:47.584: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:47.832: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:47.832: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:48.366: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:48.366: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:48.366: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:48.366: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:48.379: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:48.379: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:50.530: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:50.530: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:50.865: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:50.865: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:50.865: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:50.865: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:50.929: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:50.930: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:51.189: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:51.189: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:51.212: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:51.212: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:53.003: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:53.003: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:53.081: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:53.081: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:53.081: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:53.081: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:53.232: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:53.232: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:54.631: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:54.631: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:54.673: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:54.673: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:54.674: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:54.674: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:54.680: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:54.680: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:55.266: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:55.266: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:55.266: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:55.266: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:55.346: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:55.347: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:55.619: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:55.619: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:55.619: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:55.619: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:55.629: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:55.629: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:56.315: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:56.315: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:56.315: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:56.315: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:59.375: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:59.376: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:59.533: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:59.533: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:59.614: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:59.614: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:59.614: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:59.614: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:02:59.628: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:02:59.629: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3152
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+console.error: ({})
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:03:00.198: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:03:00.198: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:03:00.920: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:03:00.920: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 100947, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-WARNING **: 12:03:00.920: invalid (NULL) pointer instance
+[Parent 100947, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:100947): GLib-GObject-CRITICAL **: 12:03:00.920: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701183791121	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701183822012	geckodriver	INFO	Listening on 127.0.0.1:58811
+1701183822560	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "57605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeDY8nr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701183823080	Marionette	INFO	Marionette enabled
+1701183823204	Marionette	INFO	Listening on port 36341
+WebDriver BiDi listening on ws://127.0.0.1:57605
+Read port: 36341
+1701183823468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 102363, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:102363): WARNING **: 12:03:44.400: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:57605/devtools/browser/c57022d3-271b-4c1a-8e05-3688c7a9b218
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 639: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:639:262
+
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: chrome://global/content/elements/videocontrols.js, line 113: Script terminated by timeout at:
+this.VideoControlsWidget<@chrome://global/content/elements/videocontrols.js:113:28
+@chrome://global/content/elements/videocontrols.js:215:10
+injectInlineVideo@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:213854
+@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:212352
+addComponent@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:123851
+initComponents@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:122911
+l/</<@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:122451
+
+JavaScript error: resource://gre/actors/UAWidgetsChild.sys.mjs, line 139: TypeError: sandbox[widgetName] is not a constructor
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 904: TypeError: this.contentWindow is null
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 527: Script terminated by timeout at:
+aa.uh@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:527:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:412
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+1701183853123	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-afedc24f2db24f77c3f7.min.js, line 2: Error: Request aborted
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:35671
+
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701184126983	geckodriver	INFO	Listening on 127.0.0.1:53969
+1701184127532	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36471" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSbPxA9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701184128037	Marionette	INFO	Marionette enabled
+1701184128157	Marionette	INFO	Listening on port 38687
+WebDriver BiDi listening on ws://127.0.0.1:36471
+Read port: 38687
+1701184128475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 105152, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:105152): WARNING **: 12:08:49.412: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:36471/devtools/browser/c9a7c82f-3e68-4d1e-acd5-2f23fc8836f5
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 638: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:638:262
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 154: Script terminated by timeout at:
+Sa@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:154:437
+jp@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:382:423
+fq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:385:766
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701184158097	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:35644
+
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3152
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701184319819	geckodriver	INFO	Listening on 127.0.0.1:34527
+1701184320377	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "38081" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3JDeER"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701184320850	Marionette	INFO	Marionette enabled
+1701184320950	Marionette	INFO	Listening on port 42555
+WebDriver BiDi listening on ws://127.0.0.1:38081
+Read port: 42555
+1701184321187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 107455, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:107455): WARNING **: 12:12:02.367: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38081/devtools/browser/7319bfce-6d55-4e86-8d03-ae46b4c6ad92
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 638: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:638:262
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+U@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:33080
+M@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:33779
+G@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:34411
+require<[9]</f/</<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28945
+require<[9]</f/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28917
+require<[9]</ne/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:37437
+require<[9]</f/</<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28945
+require<[9]</f/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28917
+syncToCookie@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42039
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42404
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-afedc24f2db24f77c3f7.min.js, line 2: Error: Request aborted
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:35644
+
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1701184350888	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -51,8 +51,9 @@ class BuscadorPrecosStreaming:
     def globoPlay(self) -> float:
         try:
             self.driver.get("https://vitrine.globo.com/globoplay")
+            sleep(5)
             elem = self.driver.find_element(By.XPATH,"/html/body/app-root/main/app-product/app-offer-list[1]/section/div/app-offer-list-carousel/div/app-offer-toggle/div/div/button[1]")
-            elem.click()
+            elem.click()            
             elem = self.driver.find_element(By.XPATH, "/html/body/app-root/main/app-product/app-offer-list[1]/section/div/app-offer-list-carousel/div/splide/div/div/div/div[1]/app-offer-card/article/div[2]/app-parcel-value/span/span[2]")
             return elem.text.replace("R$", "").replace(",",".").replace("/mês", "").strip()
         except:
@@ -150,12 +151,16 @@ class BuscadorPrecosStreaming:
         except:
             print("Problema com a AppleTv+")
             return sys.maxsize
-    # bug
-    def paramount(self) -> str:
-        self.driver.get("https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB")
-        elem = self.driver.find_element(By.XPATH, "/html/body/main/section[1]/section/div/div/div[1]/strong[1]")
-        # print("Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip())
-        return "Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip()
+    
+    def paramountPlus(self) -> float:
+        try:
+            self.driver.get("https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB")
+            elem = self.driver.find_element(By.XPATH, "/html/body/main/section[1]/section/div/div/div[1]/strong[2]")
+            # print("Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip())
+            return elem.text.split("R$")[1].split("/mês")[0].replace(",",".").strip()
+        except:
+            print("Problema com o Paramount+")
+            return sys.maxsize
     
     # bug
     def starplus(self) -> str:
