@@ -3331,3 +3331,38 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1701173041504	geckodriver	INFO	Listening on 127.0.0.1:34697
+1701173042049	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "53419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile73DqUO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701173042538	Marionette	INFO	Marionette enabled
+1701173042630	Marionette	INFO	Listening on port 37641
+WebDriver BiDi listening on ws://127.0.0.1:53419
+Read port: 37641
+1701173042753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 61436, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:61436): WARNING **: 09:04:03.884: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:53419/devtools/browser/30d9a2b3-9766-4c82-ae7d-f12100210be8
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 513: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:513:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:513:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:513:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:513:38482
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/e.getFID/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:77397
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+1701173072585	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
