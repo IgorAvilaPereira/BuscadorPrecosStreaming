@@ -29,7 +29,7 @@ def main(page):
         price = float(eval("buscador."+method+"()"))
         streamings.append(dict(name = method, price = price))                        
         if (price != sys.maxsize):
-            tx.value = "Carregando Preços Atualizados:"+method+"..."
+            tx.value = "Carregando Preços Atualizados: "+method+"..."
             page.update()
     
     streamings = sorted(streamings, key=lambda k: k['price'])                  
