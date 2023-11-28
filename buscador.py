@@ -168,12 +168,10 @@ class BuscadorPrecosStreaming:
         elem = self.driver.find_element(By.XPATH,"/html/body/webruntime-app/lwr-router-container/webruntime-inner-app/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/c-dtcvx_support-theme/div/section/slot/webruntime-router-container/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/community_layout-slds-flexible-layout/div/webruntime-component-container[2]/community_layout-section/div[3]/community_layout-column[1]/div/webruntime-component-container/c-dtcvx_article/div/div[1]/p/p[8]/text()[1]")
         return "Star+:"+elem.text.strip()
     
-    # bug
-    def disneyStarLionsgate(self) -> str:
-        self.driver.get("https://www.disneyplus.com/pt-br?cid=DSS-Search-Google-71700000075038504-&s_kwcid=AL!8468!3!576459364510!e!!g!!disney%20plus&gad=1&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zpeDuXapVVyPaZYnHuzmWK0EQ5nfh7WNk_cf-T2Dspmytoku_FKA4aAoKqEALw_wcB&gclsrc=aw.ds")
-        elem = self.driver.find_element(By.XPATH, "/html/body/main/div/section/div/div[1]/div[1]/div[4]/div/a/span")
-        # print("Combo (Disney+, Star+ e Lionsgate+):"+elem.text)
-        return "Combo (Disney+, Star+ e Lionsgate+):"+elem.text
+    def disneyPlus(self) -> float:
+        self.driver.get("https://www.minhaconexao.com.br/planos/streaming/disney-plus#:~:text=Atualmente%2C%20o%20Disney%20Plus%20oferece,mais%20sobre%20o%20Disney%2B%20abaixo!")        
+        elem = self.driver.find_element(By.XPATH, "/html/body/section[4]/div/div/div/p[1]/strong")        
+        return elem.text.split("R$")[1].replace(".","").replace(",",".").strip()        
     
     def playplus(self) -> float:
         try:
