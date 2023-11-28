@@ -54,6 +54,7 @@ class BuscadorPrecosStreaming:
             result = elem.text[elem.text.find("R$"):elem.text.find("ano")]+")"                
             return result.replace("month", "mês").replace("year", "ano").replace("or", "ou").replace(". Cancel anytime)", "").split("/mês")[0].replace("R$","").replace(",", ".")
         except:
+            print("Problema com o PrimeVideo")
             return sys.maxsize
 
     # def hboMaxStreaming(self) -> Streaming:        
@@ -76,6 +77,7 @@ class BuscadorPrecosStreaming:
             # return "HBOMax:"+elem.text
             return elem.text.replace(",", ".").replace("R$","").strip()
         except:
+            print("Problema com a HboMax")
             return sys.maxsize
 
 
@@ -110,6 +112,7 @@ class BuscadorPrecosStreaming:
         # resultado = resultado +"\n"+"*"+elem.text
             return elem.text.replace("Padrão:", "").replace("R$","").replace(",", ".").split("/mês")[0].strip()      
         except:
+            print("Problema com a NetFlix")
             return sys.maxsize
     
 
@@ -132,6 +135,7 @@ class BuscadorPrecosStreaming:
             # print("AppleTv+:"+elem.text.replace("por mês", "").strip())
             return elem.text.replace("por mês", "").replace("R$","").replace(",", ".").strip()
         except:
+            print("Problema com a AppleTv+")
             return sys.maxsize
     # bug
     def paramount(self) -> str:
@@ -160,6 +164,7 @@ class BuscadorPrecosStreaming:
             # print("PlayPlus+:"+elem.text)
             return elem.text.replace("R$", "").replace(",",".").replace("**", "").strip()
         except:
+            print("Problema com a PlayPlus")
             return sys.maxsize
     # bug
     def discovery(self) -> str:
