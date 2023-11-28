@@ -7592,3 +7592,71 @@ r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22
 JavaScript warning: https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js, line 2: Script terminated by timeout at:
 41196/S.port1.onmessage@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:304814
 
+1701189423761	geckodriver	INFO	Listening on 127.0.0.1:39569
+1701189424312	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "38211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEOAG0L"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701189424840	Marionette	INFO	Marionette enabled
+1701189424980	Marionette	INFO	Listening on port 41701
+WebDriver BiDi listening on ws://127.0.0.1:38211
+Read port: 41701
+1701189425265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 136924, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:136924): WARNING **: 13:37:06.390: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38211/devtools/browser/0ce84884-8cb0-4d2a-9235-d1b7b032da80
+JavaScript error: https://help.starplus.com/pt-BR/sfsites/c/resource/Adobe_AppMeasurement_Star, line 1828: ReferenceError: Visitor is not defined
+JavaScript error: https://help.starplus.com/pt-BR/sfsites/c/resource/Adobe_AppMeasurement_Star, line 1828: ReferenceError: Visitor is not defined
+JavaScript error: https://help.starplus.com/pt-BR/webruntime/framework/555e4d59f1/prod/lwr_bootstrap_locker, line 3: Error: Lightning Web Security: Cannot access nonce.
+1701189458020	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701189507208	geckodriver	INFO	Listening on 127.0.0.1:46073
+1701189507773	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "47533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqJpI8N"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701189508431	Marionette	INFO	Marionette enabled
+1701189508567	Marionette	INFO	Listening on port 39253
+Read port: 39253
+WebDriver BiDi listening on ws://127.0.0.1:47533
+1701189508684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 137505, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:137505): WARNING **: 13:38:30.374: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:47533/devtools/browser/1986fee5-18d8-410d-a8e6-a83e08280e27
+JavaScript error: https://help.starplus.com/pt-BR/sfsites/c/resource/Adobe_AppMeasurement_Star, line 1828: ReferenceError: Visitor is not defined
+JavaScript error: https://help.starplus.com/pt-BR/sfsites/c/resource/Adobe_AppMeasurement_Star, line 1828: ReferenceError: Visitor is not defined
+JavaScript error: https://help.starplus.com/pt-BR/webruntime/framework/555e4d59f1/prod/lwr_bootstrap_locker, line 3: Error: Lightning Web Security: Cannot access nonce.
+1701189541609	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+1701189596230	geckodriver	INFO	Listening on 127.0.0.1:47065
+1701189596796	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "45907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9UvMFM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701189597369	Marionette	INFO	Marionette enabled
+1701189597479	Marionette	INFO	Listening on port 40821
+Read port: 40821
+WebDriver BiDi listening on ws://127.0.0.1:45907
+1701189597578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 140030, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:140030): WARNING **: 13:39:58.982: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:45907/devtools/browser/0c326a71-b1a0-4784-9fa4-df17cc152836
+JavaScript error: https://help.starplus.com/pt-BR/sfsites/c/resource/Adobe_AppMeasurement_Star, line 1828: ReferenceError: Visitor is not defined
+JavaScript error: https://help.starplus.com/pt-BR/sfsites/c/resource/Adobe_AppMeasurement_Star, line 1828: ReferenceError: Visitor is not defined
+JavaScript error: https://help.starplus.com/pt-BR/webruntime/framework/555e4d59f1/prod/lwr_bootstrap_locker, line 3: Error: Lightning Web Security: Cannot access nonce.
+1701189630039	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch

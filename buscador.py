@@ -161,17 +161,15 @@ class BuscadorPrecosStreaming:
         except:
             print("Problema com o Paramount+")
             return sys.maxsize
-    
-    # bug
-    def starplus(self) -> str:
-        self.driver.get("https://help.starplus.com/pt-BR/article/starplus-pt-br-how-much-does-star-plus-cost")
-        elem = self.driver.find_element(By.XPATH,"/html/body/webruntime-app/lwr-router-container/webruntime-inner-app/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/c-dtcvx_support-theme/div/section/slot/webruntime-router-container/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/community_layout-slds-flexible-layout/div/webruntime-component-container[2]/community_layout-section/div[3]/community_layout-column[1]/div/webruntime-component-container/c-dtcvx_article/div/div[1]/p/p[8]/text()[1]")
-        return "Star+:"+elem.text.strip()
-    
+     
     def disneyPlus(self) -> float:
-        self.driver.get("https://www.minhaconexao.com.br/planos/streaming/disney-plus#:~:text=Atualmente%2C%20o%20Disney%20Plus%20oferece,mais%20sobre%20o%20Disney%2B%20abaixo!")        
-        elem = self.driver.find_element(By.XPATH, "/html/body/section[4]/div/div/div/p[1]/strong")        
-        return elem.text.split("R$")[1].replace(".","").replace(",",".").strip()        
+        try:
+            self.driver.get("https://www.minhaconexao.com.br/planos/streaming/disney-plus#:~:text=Atualmente%2C%20o%20Disney%20Plus%20oferece,mais%20sobre%20o%20Disney%2B%20abaixo!")        
+            elem = self.driver.find_element(By.XPATH, "/html/body/section[4]/div/div/div/p[1]/strong")        
+            return elem.text.split("R$")[1].replace(".","").replace(",",".").strip()        
+        except:
+            print("Problema com o Disney+")
+            return sys.maxsize
     
     def playplus(self) -> float:
         try:
@@ -184,6 +182,17 @@ class BuscadorPrecosStreaming:
             return sys.maxsize
     
     def discoveryPlus(self) -> float:
-        self.driver.get("https://www.discoveryplus.com/br")
-        elem = self.driver.find_element(By.XPATH, "/html/body/div/main/section[7]/div[3]/ul[1]/li[2]/div[3]")        
-        return elem.text.replace("R$","").replace(",", ".").replace("/mês", "").strip()
+        try:
+            self.driver.get("https://www.discoveryplus.com/br")
+            elem = self.driver.find_element(By.XPATH, "/html/body/div/main/section[7]/div[3]/ul[1]/li[2]/div[3]")        
+            return elem.text.replace("R$","").replace(",", ".").replace("/mês", "").strip()
+        except:
+            print("Problema com o Discovery+")
+            return sys.maxsize    
+    
+    # bug
+    def starplus(self) -> str:        
+        self.driver.get("https://help.starplus.com/pt-BR/article/starplus-pt-br-how-much-does-star-plus-cost")
+        # elem = self.driver.find_element(By.XPATH,"//*[@id=\"main-8\"]/slot/webruntime-router-container/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/community_layout-slds-flexible-layout/div/webruntime-component-container[2]/community_layout-section/div[3]/community_layout-column[1]/div/webruntime-component-container/c-dtcvx_article/div/div[1]/p/p[8]/strong[1]")
+        elem = self.driver.find_element(By.CSS_SELECTOR, "#main-8 > slot > webruntime-router-container > dxp_data_provider-user-data-provider > dxp_data_provider-data-proxy > community_layout-slds-flexible-layout > div > webruntime-component-container:nth-child(2) > community_layout-section > div.lwc-6j9an5vbrcd.columns-content > community_layout-column.col-size_12-of-12.lwc-48aostf02bd-host.col-large-size_8-of-12 > div > webruntime-component-container > c-dtcvx_article > div > div.slds-rich-text-editor__output.uiOutputRichText.forceOutputRichText.article-content.plus-brands-article-content > p > p:nth-child(10) > strong:nth-child(1)")
+        return "Star+:"+elem.text.strip()
