@@ -194,7 +194,7 @@ class BuscadorPrecosStreaming:
 import flet as ft
 
 def main(page):
-    # page.title = "GridView Example"
+    page.title = "BuscadorPrecosStreaming - Desenvolvido por Igor Avila Pereira"
     page.padding = 50
     
     tx = ft.Text("Carregando Preços dos Streamings. Espere um pouco...")
