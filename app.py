@@ -155,12 +155,13 @@ class BuscadorPrecosStreaming:
 
 if __name__ == "__main__":          
     buscador = BuscadorPrecosStreaming(False)    
+
     print("Obtendo valores...")
-    # print(buscador.primeVideo())
-    # print(buscador.appleTv())
-    # print(buscador.hboMax())     
-    # print(buscador.playplus())        
-    # print(buscador.netFlix())       
+    print(buscador.primeVideo())
+    print(buscador.appleTv())
+    print(buscador.hboMax())     
+    print(buscador.playplus())        
+    print(buscador.netFlix())       
 
     # bug
     # print(buscador.paramount())    
@@ -168,13 +169,45 @@ if __name__ == "__main__":
     # print(buscador.disneyStarLionsgate())        
     # print(buscador.discovery())    
 
+# bom
 # import flet as ft
+
 # def main(page):
+#     # page.title = "GridView Example"
+#     page.padding = 50
+  
+#     images = ft.GridView(
+#         expand=1,
+#         runs_count=5,
+#         max_extent=150,
+#         child_aspect_ratio=1.0,
+#         spacing=5,
+#         run_spacing=5,
+#     )
+  
 #     def slider_changed(e):
 #         t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"
+#         images.controls = []
+#         for i in range(0, int(e.control.value)):
+#             images.controls.append(
+#                 ft.Image(
+#                     # src=f"https://picsum.photos/150/150?{i}",
+#                     src=f"assets/netflix.png",
+#                     fit=ft.ImageFit.NONE,
+#                     repeat=ft.ImageRepeat.NO_REPEAT,
+#                     border_radius=ft.border_radius.all(10),
+#                 )
+#             )  
 #         page.update()
+
 #     t = ft.Text()
+
 #     page.add(
 #         ft.Text("Qual é seu orçamento mensal para Streamings?"),
 #         ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
+    
+#     page.add(images)
+#     page.update()
+
+
 # ft.app(target=main)
