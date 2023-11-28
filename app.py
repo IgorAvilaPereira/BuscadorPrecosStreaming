@@ -46,12 +46,11 @@ class BuscadorPrecosStreaming:
         
     #     return Streaming(nome, preco, logo)
 
-    def primeVideo(self) -> str:        
+    def primeVideo(self) -> float:        
         self.driver.get("https://www.primevideo.com/")
         elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div[2]/div[3]/p")
-        result = elem.text[elem.text.find("R$"):elem.text.find("ano")]+")"
-        # print("PrimeVideo:"+result.replace("month", "mês").replace("year", "ano").replace("or", "ou").replace(". Cancel anytime)", ""))
-        return "PrimeVideo:"+result.replace("month", "mês").replace("year", "ano").replace("or", "ou").replace(". Cancel anytime)", "")
+        result = elem.text[elem.text.find("R$"):elem.text.find("ano")]+")"                
+        return result.replace("month", "mês").replace("year", "ano").replace("or", "ou").replace(". Cancel anytime)", "").split("/mês")[0].replace("R$","").replace(",", ".")
 
     # def hboMaxStreaming(self) -> Streaming:        
     #     nome = "HBOMax"
@@ -65,12 +64,12 @@ class BuscadorPrecosStreaming:
 
     #     return Streaming(nome, preco, logo)
 
-    def hboMax(self) -> str:        
+    def hboMax(self) -> float:        
         self.driver.get("https://www.hbomax.com/br/pt")
         elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/article/section[4]/div/div/div/div[2]/div[1]/div[3]/div/div[3]/div/div[2]/div[2]/div/div[1]/span[1]")
         # print("HBOMax:"+elem.text+"/mês")
         # return "HBOMax:"+elem.text
-        return "HBOMax:"+elem.text+"/mês"
+        return elem.text.replace(",", ".").replace("R$","").strip()
 
     # bug
     # def netFlixStreaming(self) -> Streaming:
@@ -92,16 +91,15 @@ class BuscadorPrecosStreaming:
     #     return Streaming(nome, preco, logo)
 
 
-    def netFlix(self) -> str:
+    def netFlix(self) -> float:
         self.driver.get("https://help.netflix.com/pt/node/24926")        
         elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[2]/p")        
-        resultado = "Netflix:\n"        
-        # "Padrão:"
-        resultado = resultado + "*"+elem.text        
+        # resultado = "Netflix:\n"        
+        # "Padrão:"        
         # Premium
         # elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[4]/p")        
         # resultado = resultado +"\n"+"*"+elem.text
-        return resultado
+        return elem.text.replace("Padrão:", "").replace("R$","").replace(",", ".").split("/mês")[0].strip()      
     
 
     # def appleTvStreaming(self) -> Streaming:
@@ -116,11 +114,11 @@ class BuscadorPrecosStreaming:
         
     #     return Streaming(nome, preco, logo)
     
-    def appleTv(self) -> str:
+    def appleTvPlus(self) -> float:
         self.driver.get("https://www.apple.com/br/apple-tv-plus/#:~:text=Ap%C3%B3s%20o%20teste%20gratuito%20de,TV%2B%20com%20sua%20fam%C3%ADlia%202.")
         elem = self.driver.find_element(By.XPATH, "/html/body/main/section[3]/div/div/div[2]/h3")
         # print("AppleTv+:"+elem.text.replace("por mês", "").strip())
-        return "AppleTv+:"+elem.text.replace("por mês", "").strip()
+        return elem.text.replace("por mês", "").replace("R$","").replace(",", ".").strip()
 
     def paramount(self) -> str:
         self.driver.get("https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB")
@@ -141,11 +139,11 @@ class BuscadorPrecosStreaming:
         # print("Combo (Disney+, Star+ e Lionsgate+):"+elem.text)
         return "Combo (Disney+, Star+ e Lionsgate+):"+elem.text
     
-    def playplus(self) -> str:
+    def playplus(self) -> float:
         self.driver.get("https://www.playplus.com/flow/plans")
         elem = self.driver.find_element(By.XPATH, "/html/body/div[3]/div/div[3]/div/div[1]/div/div/div/div/div/div[2]/div[1]/h3")
         # print("PlayPlus+:"+elem.text)
-        return "PlayPlus+:"+elem.text
+        return elem.text.replace("R$", "").replace(",",".").replace("**", "").strip()
 
     def discovery(self) -> str:
         self.driver.get("https://www.discoveryplus.com/br/")
@@ -155,13 +153,22 @@ class BuscadorPrecosStreaming:
 
 if __name__ == "__main__":          
     buscador = BuscadorPrecosStreaming(False)    
+    
+    # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]
+    method_list = ["primeVideo", "appleTv", "hboMax", "playplus", "netFlix"]
+    # print(method_list)
+    streamings = []
+    for method in method_list:
+        streamings[method] = method
+        # streamings[method] = eval("buscador."+method+"()")
+    print(streamings)
 
-    print("Obtendo valores...")
-    print(buscador.primeVideo())
-    print(buscador.appleTv())
-    print(buscador.hboMax())     
-    print(buscador.playplus())        
-    print(buscador.netFlix())       
+    # print("Obtendo valores...")
+    # print(buscador.primeVideo())
+    # print(buscador.appleTvPlus())
+    # print(buscador.hboMax())     
+    # print(buscador.playplus())        
+    # print(buscador.netFlix())       
 
     # bug
     # print(buscador.starplus())   
