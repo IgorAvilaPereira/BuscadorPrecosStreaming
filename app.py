@@ -275,6 +275,7 @@ def main(page):
     page.update()
 
 # desktop
+# pipreqs ./
 ft.app(target=main)
 # web
 # ft.app(target=main, view=ft.AppView.WEB_BROWSER)
