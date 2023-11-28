@@ -8505,3 +8505,242 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1701201651951	geckodriver	INFO	Listening on 127.0.0.1:49205
+1701201652452	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "33973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileT6QNM9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701201653223	Marionette	INFO	Marionette enabled
+1701201653360	Marionette	INFO	Listening on port 41125
+WebDriver BiDi listening on ws://127.0.0.1:33973
+Read port: 41125
+1701201653727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 200331, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:200331): WARNING **: 17:00:55.148: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33973/devtools/browser/c32c6dfe-5dd5-4498-bc69-336803e102c5
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 527: Script terminated by timeout at:
+aa.uh@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:527:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:412
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701201683346	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701201709044	geckodriver	INFO	Listening on 127.0.0.1:54613
+1701201709474	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55407" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSRQEUq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701201710128	Marionette	INFO	Marionette enabled
+1701201710263	Marionette	INFO	Listening on port 41211
+Read port: 41211
+WebDriver BiDi listening on ws://127.0.0.1:55407
+1701201710391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 201482, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:201482): WARNING **: 17:01:51.928: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55407/devtools/browser/8622b32e-fd36-4f82-b8c8-09dacb672e32
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+f@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28863
+require<[9]</X/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:35864
+X@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:35679
+require<[9]</f/</<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28945
+require<[9]</f/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28917
+require<[9]</ne/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:37437
+require<[9]</f/</<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28945
+require<[9]</f/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28917
+syncToCookie@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42039
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42404
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 155: Script terminated by timeout at:
+Ua@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:155:15
+get@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:128
+stop@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:412
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/e.getFID/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:77397
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:35644
+
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701201740169	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js, line 1: Script terminated by timeout at:
+De@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22303
+
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+JavaScript warning: https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js, line 2: Script terminated by timeout at:
+wo@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:228137
+u@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:229497
+p@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:230502
+m@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:231145
+57799/ko/<@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:233406
+Ua@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:244450
+Ks@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:289845
+kl@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:275543
+wl@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:275471
+_l@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:275332
+ml@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:272488
+57799/$i/<@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:222309
+41196/t.unstable_runWithPriority@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:307074
+Ki@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:222086
+$i@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:222256
+Wi@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:222189
+cl@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:269873
+Aa@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:241685
+@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:526653
+y@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:35855
+91019/C/</<@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:38034
+91019/f/s/</<@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:35208
+91019/f/s/<@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:35313
+a@https://www.discoveryplus.com/br/dp/bundle-b3d948bb7b8a104556fb.js:2:34040
+nrWrapper@https://www.discoveryplus.com/br:2:29516
+
+1701201809397	geckodriver	INFO	Listening on 127.0.0.1:44725
+1701201809886	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "60159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefcyfot"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701201810692	Marionette	INFO	Marionette enabled
+1701201810814	Marionette	INFO	Listening on port 35917
+WebDriver BiDi listening on ws://127.0.0.1:60159
+Read port: 35917
+1701201811172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 203539, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:203539): WARNING **: 17:03:32.338: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:60159/devtools/browser/3535cab6-25f3-423b-b7ea-85a3853dc306
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 277: Script terminated by timeout at:
+x@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:5801
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+
+JavaScript warning: https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js, line 1: Script terminated by timeout at:
+@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:41808
+parseOptions@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:17090
+addKeyframe@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:150237
+addKeyframe@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:48575
+addKeyframe@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:132533
+createDOMKeyframes@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:129276
+initialize@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:127002
+l/<@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:122422
+add/a/<@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:125781
+a@https://www.apple.com/v/apple-tv-plus/ag/built/scripts/main.built.js:1:125769
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 335: Script terminated by timeout at:
+Am@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:335:396
+RF@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:553:697
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:210
+aa.Jm/k/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:296:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:299:350
+k@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:107
+c@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:346:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:347:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:144
+c@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:575:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:387:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:390:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:388:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:385:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-afedc24f2db24f77c3f7.min.js, line 2: Error: Request aborted
+1701201841145	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14255
+
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c, line 306: Script terminated by timeout at:
+V@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:306:693
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:573:341
+aa.Jm/k/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:572:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:295:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:298:350
+k@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:572:107
+c@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:345:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:346:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:572:144
+c@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:591:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:386:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:389:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:387:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:384:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:592:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:542:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:541:420
+invokeTask@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:7854
+runTask@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:3206
+invokeTask@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:8911
+ue@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:21715
+re@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22142
+De@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22315
+
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3152
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+JavaScript warning: https://www.discoveryplus.com/br, line 2: Script terminated by timeout at:
+nrWrapper@https://www.discoveryplus.com/br:2:29368
+

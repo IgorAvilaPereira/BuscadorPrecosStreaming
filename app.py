@@ -26,6 +26,7 @@ def main(page):
     method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay", "discoveryPlus", "disneyPlus"]    
     streamings = []
     for method in method_list:        
+        # print(method)
         price = float(eval("buscador."+method+"()"))
         streamings.append(dict(name = method, price = price))                        
         if (price != sys.maxsize):
