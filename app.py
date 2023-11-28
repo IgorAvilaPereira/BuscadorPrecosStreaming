@@ -151,70 +151,100 @@ class BuscadorPrecosStreaming:
         # print("Discovery+:"+elem.text)
         return "Discovery+:"+elem.text
 
-if __name__ == "__main__":          
-    buscador = BuscadorPrecosStreaming(False)    
-    
-    # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]
-    method_list = ["primeVideo", "appleTv", "hboMax", "playplus", "netFlix"]
-    # print(method_list)
-    streamings = []
-    for method in method_list:
-        streamings[method] = method
-        # streamings[method] = eval("buscador."+method+"()")
-    print(streamings)
-
+# if __name__ == "__main__":          
+#     buscador = BuscadorPrecosStreaming(False)    
+#     # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]
+#     method_list = ["primeVideo", "appleTvPlus", "hboMax", "playplus", "netFlix"]    
+#     streamings = []
+#     for method in method_list:
+#         streamings.append(dict(name = method, price = float(eval("buscador."+method+"()"))))
+#     print(streamings)
+#     streamings = sorted(streamings, key=lambda k: k['price'])
+#     print(streamings)
     # print("Obtendo valores...")
     # print(buscador.primeVideo())
     # print(buscador.appleTvPlus())
     # print(buscador.hboMax())     
     # print(buscador.playplus())        
     # print(buscador.netFlix())       
-
-    # bug
+    # bugs
     # print(buscador.starplus())   
     # print(buscador.paramount())    
     # print(buscador.disneyStarLionsgate())        
     # print(buscador.discovery())    
 
 # bom
-# import flet as ft
+import flet as ft
 
-# def main(page):
-#     # page.title = "GridView Example"
-#     page.padding = 50
+def main(page):
+    # page.title = "GridView Example"
+    page.padding = 50
+    tx = ft.Text("Carregando Preços dos Streamings. Espere um pouco...")
+    page.add(tx)
+    page.update()
+
+    buscador = BuscadorPrecosStreaming(False)    
+    # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]    
+    method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix"]    
+    streamings = []
+    for method in method_list:
+        streamings.append(dict(name = method, price = float(eval("buscador."+method+"()"))))                        
+    streamings = sorted(streamings, key=lambda k: k['price'])          
+
+    tx.visible = False
+
+
+    images = ft.GridView(
+        expand=1,
+        runs_count=5,
+        max_extent=150,
+        child_aspect_ratio=1.0,
+        spacing=5,
+        run_spacing=5,
+    )
   
-#     images = ft.GridView(
-#         expand=1,
-#         runs_count=5,
-#         max_extent=150,
-#         child_aspect_ratio=1.0,
-#         spacing=5,
-#         run_spacing=5,
-#     )
-  
-#     def slider_changed(e):
-#         t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"
-#         images.controls = []
-#         for i in range(0, int(e.control.value)):
-#             images.controls.append(
-#                 ft.Image(
-#                     # src=f"https://picsum.photos/150/150?{i}",
-#                     src=f"assets/netflix.png",
-#                     fit=ft.ImageFit.NONE,
-#                     repeat=ft.ImageRepeat.NO_REPEAT,
-#                     border_radius=ft.border_radius.all(10),
-#                 )
-#             )  
-#         page.update()
+    def slider_changed(e):
+        t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"   
+        images.controls = []        
+        if (int(e.control.value) == 0):
+            page.update()
+            return "" 
+        sum = 0
+        i = 0
+        name = ""
+        price = 0
+        # for i in range(0, int(e.control.value)):
+        while (sum <= int(e.control.value) and i < len(streamings)):           
+            for key, val in streamings[i].items():
+                if key == 'name':
+                    name = val
+                elif key == 'price':
+                    price = float(val)
+            
+            print(name+":"+str(price))
+            
+            sum = sum + price
+            
+            images.controls.append(
+                ft.Image(
+                    # src=f"https://picsum.photos/150/150?{i}",
+                    src=f"assets/"+name+".png",
+                    fit=ft.ImageFit.NONE,
+                    repeat=ft.ImageRepeat.NO_REPEAT,
+                    border_radius=ft.border_radius.all(10),
+                )
+            )
+            i = i + 1  
+        page.update()
+        
+    t = ft.Text()
 
-#     t = ft.Text()
-
-#     page.add(
-#         ft.Text("Qual é seu orçamento mensal para Streamings?"),
-#         ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
+    page.add(
+        ft.Text("Qual é seu orçamento mensal para Streamings?"),
+        ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
     
-#     page.add(images)
-#     page.update()
+    page.add(images)
+    page.update()
 
 
-# ft.app(target=main)
+ft.app(target=main)

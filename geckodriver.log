@@ -1825,3 +1825,692 @@ Read port: 45089
 WebDriver BiDi listening on ws://127.0.0.1:42711
 1701133601235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 Exiting due to channel error.
+1701133988125	geckodriver	INFO	Listening on 127.0.0.1:43737
+1701133988558	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWviYAE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701133988980	Marionette	INFO	Marionette enabled
+1701133989049	Marionette	INFO	Listening on port 39759
+Read port: 39759
+WebDriver BiDi listening on ws://127.0.0.1:58519
+1701133989114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 938045, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:938045): WARNING **: 22:13:10.049: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58519/devtools/browser/a3d5807b-a39a-445c-a27d-ffd23b9e197d
+1701134011198	geckodriver	INFO	Listening on 127.0.0.1:60287
+1701134011753	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "35243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAIX3mG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701134012283	Marionette	INFO	Marionette enabled
+1701134012376	Marionette	INFO	Listening on port 40655
+WebDriver BiDi listening on ws://127.0.0.1:35243
+Read port: 40655
+1701134012640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 938460, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:938460): WARNING **: 22:13:33.566: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:35243/devtools/browser/760143e8-5215-4f69-9dc7-0ec889ba970b
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38482
+
+1701134020414	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:205458
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:268321
+v@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:216419
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 527: Script terminated by timeout at:
+aa.uh@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:527:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:412
+
+1701134043999	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701134216928	geckodriver	INFO	Listening on 127.0.0.1:53885
+1701134217474	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilep6ZIUF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701134217828	Marionette	INFO	Marionette enabled
+1701134217896	Marionette	INFO	Listening on port 44627
+WebDriver BiDi listening on ws://127.0.0.1:55027
+Read port: 44627
+1701134218135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 939769, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:939769): WARNING **: 22:16:58.979: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55027/devtools/browser/957577eb-ef3d-46f7-a332-d34848c374b5
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 527: Script terminated by timeout at:
+aa.uh@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:527:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:412
+
+1701134247868	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701134474818	geckodriver	INFO	Listening on 127.0.0.1:43457
+1701134474818	geckodriver	INFO	Listening on 127.0.0.1:55569
+1701134474818	geckodriver	INFO	Listening on 127.0.0.1:59465
+1701134474818	geckodriver	INFO	Listening on 127.0.0.1:35371
+1701134474819	geckodriver	INFO	Listening on 127.0.0.1:51223
+1701134475337	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "47277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYx5f8i"
+1701134475340	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "47783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile54ec5h"
+1701134475340	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "59633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefEIU4w"
+1701134475343	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "37003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePwTPU8"
+1701134475357	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "46925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTS0Dta"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701134476424	Marionette	INFO	Marionette enabled
+1701134476438	Marionette	INFO	Marionette enabled
+1701134476538	Marionette	INFO	Marionette enabled
+1701134476552	Marionette	INFO	Marionette enabled
+1701134476575	Marionette	INFO	Marionette enabled
+1701134476681	Marionette	INFO	Listening on port 33327
+1701134476718	Marionette	INFO	Listening on port 33147
+Read port: 33327
+Read port: 33147
+WebDriver BiDi listening on ws://127.0.0.1:59633
+WebDriver BiDi listening on ws://127.0.0.1:46925
+1701134476942	Marionette	INFO	Listening on port 43971
+1701134476970	Marionette	INFO	Listening on port 38571
+Read port: 43971
+Read port: 38571
+WebDriver BiDi listening on ws://127.0.0.1:37003
+1701134477160	Marionette	INFO	Listening on port 36627
+Read port: 36627
+WebDriver BiDi listening on ws://127.0.0.1:47783
+WebDriver BiDi listening on ws://127.0.0.1:47277
+1701134477356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701134477406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701134477505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701134477510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701134477523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+[Parent 941289, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:941289): WARNING **: 22:21:46.217: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+[Parent 941291, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:941291): WARNING **: 22:21:51.604: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+[Parent 941290, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:941290): WARNING **: 22:21:51.609: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+[Parent 941298, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:941298): WARNING **: 22:22:08.137: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+[Parent 941286, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:941286): WARNING **: 22:23:07.883: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://js-prod-intl.paramountplus.com/assets/redfast.js, line 21: Script terminated by timeout at:
+r@https://js-prod-intl.paramountplus.com/assets/redfast.js:21:19985
+o.prototype.dispatchConsentEvent@https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js:7:108994
+io.prototype.createConsentTxn@https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js:7:113328
+rn.prototype.consentDefaulCall@https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js:7:155202
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14405
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://js-prod-intl.paramountplus.com/assets/redfast.js, line 21: Script terminated by timeout at:
+r@https://js-prod-intl.paramountplus.com/assets/redfast.js:21:19985
+o.prototype.dispatchConsentEvent@https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js:7:108994
+io.prototype.createConsentTxn@https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js:7:113328
+rn.prototype.consentDefaulCall@https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js:7:155202
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14405
+
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14255
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 941290, IPC I/O Parent] WARNING: process 942652 exited on signal 15: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:265
+[Parent 941290, IPC I/O Parent] WARNING: process 942631 exited on signal 15: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:265
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1701134771137	Marionette	INFO	Stopped listening on port 33467
+1701134772386	Marionette	INFO	Stopped listening on port 43061
+1701134773168	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+DevTools listening on ws://127.0.0.1:46925/devtools/browser/482d872c-3760-4092-9fe4-e2f3112de634
+1701134774648	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701134774990	Marionette	INFO	Stopped listening on port 33327
+1701134775156	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+1701134775217	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+DevTools listening on ws://127.0.0.1:47277/devtools/browser/606fbab5-993f-4cc9-b7bd-d9d586c882b8
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+DevTools listening on ws://127.0.0.1:37003/devtools/browser/8c4f3b63-16f1-4e11-807a-b13cac97e752
+1701134775619	Marionette	INFO	Stopped listening on port 38571
+1701134775733	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 321))
+console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.sys.mjs", 791))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 321))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.sys.mjs", 879))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+1701134869305	geckodriver	INFO	Listening on 127.0.0.1:49665
+1701134869861	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "39115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLC3WzG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701134871068	Marionette	INFO	Marionette enabled
+1701134871272	Marionette	INFO	Listening on port 44057
+WebDriver BiDi listening on ws://127.0.0.1:39115
+Read port: 44057
+1701134871543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 944363, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:944363): WARNING **: 22:27:54.365: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39115/devtools/browser/83fd66d0-e676-426b-af4b-70f4b722eb56
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1701134902332	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135150502	geckodriver	INFO	Listening on 127.0.0.1:47299
+1701135151121	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "56355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeFUACh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135151882	Marionette	INFO	Marionette enabled
+1701135152055	Marionette	INFO	Listening on port 34861
+WebDriver BiDi listening on ws://127.0.0.1:56355
+Read port: 34861
+1701135152534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 946402, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:946402): WARNING **: 22:32:35.398: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:56355/devtools/browser/20bdd253-0bda-4a58-9a79-e243db97433a
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 698: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:698:262
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701135182007	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135203774	geckodriver	INFO	Listening on 127.0.0.1:32771
+1701135204352	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "47861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerYEp5C"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135205247	Marionette	INFO	Marionette enabled
+1701135205443	Marionette	INFO	Listening on port 40211
+Read port: 40211
+WebDriver BiDi listening on ws://127.0.0.1:47861
+1701135205598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 947300, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:947300): WARNING **: 22:33:27.280: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:47861/devtools/browser/564c879f-7e8b-4cf7-bb89-7c615db515f4
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 283: Script terminated by timeout at:
+S@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:6618
+N/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:6591
+D@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:6473
+N@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:6504
+q/this.log@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:7402
+I@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:1020
+@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:1813
+i/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:264:136
+r/this.recordMetric@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:742:8104
+I@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:1020
+@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:1813
+i/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:264:136
+g@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:742:11141
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:686
+t.emit@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:1333
+x@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:5801
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:283:686
+
+1701135237070	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135465611	geckodriver	INFO	Listening on 127.0.0.1:41883
+1701135466175	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "34509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelomBy7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135466866	Marionette	INFO	Marionette enabled
+1701135466998	Marionette	INFO	Listening on port 41041
+WebDriver BiDi listening on ws://127.0.0.1:34509
+Read port: 41041
+1701135467384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 948419, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:948419): WARNING **: 22:37:48.680: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:34509/devtools/browser/94d0aaa6-3a21-4c20-9389-a6c7507c94be
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+i@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:36569
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:37048
+
+1701135499201	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135516403	geckodriver	INFO	Listening on 127.0.0.1:36939
+1701135517007	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "45383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejxRKUa"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135518198	Marionette	INFO	Marionette enabled
+1701135518409	Marionette	INFO	Listening on port 40725
+Read port: 40725
+WebDriver BiDi listening on ws://127.0.0.1:45383
+1701135518589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 949021, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:949021): WARNING **: 22:38:40.822: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:45383/devtools/browser/c55acade-f04d-4de6-9477-0f81800ef5ed
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38482
+
+1701135549451	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135595356	geckodriver	INFO	Listening on 127.0.0.1:37263
+1701135595917	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "33213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHsDRjd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135596563	Marionette	INFO	Marionette enabled
+1701135596690	Marionette	INFO	Listening on port 35355
+WebDriver BiDi listening on ws://127.0.0.1:33213
+Read port: 35355
+1701135597017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 949805, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:949805): WARNING **: 22:39:58.371: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33213/devtools/browser/26975039-f782-43e4-8eeb-87adb2c8da34
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38482
+
+1701135629013	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135633550	geckodriver	INFO	Listening on 127.0.0.1:33837
+1701135634122	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "59067" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8VBJjc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135634864	Marionette	INFO	Marionette enabled
+1701135634998	Marionette	INFO	Listening on port 43433
+Read port: 43433
+WebDriver BiDi listening on ws://127.0.0.1:59067
+1701135635181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 950354, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:950354): WARNING **: 22:40:37.201: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:59067/devtools/browser/1614746c-49a9-4369-987b-6ccb835ddf51
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+i@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:36569
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:37048
+
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1701135666903	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135718232	geckodriver	INFO	Listening on 127.0.0.1:46903
+1701135718797	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6bbT3K"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135719496	Marionette	INFO	Marionette enabled
+1701135719641	Marionette	INFO	Listening on port 35609
+WebDriver BiDi listening on ws://127.0.0.1:41533
+Read port: 35609
+1701135719974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 951041, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:951041): WARNING **: 22:42:01.325: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:41533/devtools/browser/4195dc19-aa06-4590-8ca6-98cdbf5a8e11
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 692: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:692:262
+
+1701135751182	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135785514	geckodriver	INFO	Listening on 127.0.0.1:40115
+1701135786074	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49689" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHOppMu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135786686	Marionette	INFO	Marionette enabled
+1701135786821	Marionette	INFO	Listening on port 40735
+WebDriver BiDi listening on ws://127.0.0.1:49689
+Read port: 40735
+1701135787211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 951711, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:951711): WARNING **: 22:43:08.516: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:49689/devtools/browser/1f067b2d-2084-49d4-a8a6-f79eedc4f3ea
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:38482
+
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+1701135818346	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701135900532	geckodriver	INFO	Listening on 127.0.0.1:56773
+1701135901077	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58621" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXmPOrz"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701135901787	Marionette	INFO	Marionette enabled
+1701135901922	Marionette	INFO	Listening on port 39161
+WebDriver BiDi listening on ws://127.0.0.1:58621
+Read port: 39161
+1701135902287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 952607, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:952607): WARNING **: 22:45:03.722: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58621/devtools/browser/dde96a6e-9b8f-4959-abf1-0fbc0738dba7
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 567: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:567:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:567:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:567:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:567:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+1701135933528	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701136025646	geckodriver	INFO	Listening on 127.0.0.1:50863
+1701136026205	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "54699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejFCMLo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701136026866	Marionette	INFO	Marionette enabled
+1701136026997	Marionette	INFO	Listening on port 46015
+Read port: 46015
+WebDriver BiDi listening on ws://127.0.0.1:54699
+1701136027119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 953743, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:953743): WARNING **: 22:47:09.087: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:54699/devtools/browser/d80b2bd9-82ac-4057-94c9-b63d0852d7a9
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 566: Script terminated by timeout at:
+i@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:36569
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:566:37048
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701136056889	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701136261171	geckodriver	INFO	Listening on 127.0.0.1:56435
+1701136261731	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "33757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelNi2ec"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701136262400	Marionette	INFO	Marionette enabled
+1701136262546	Marionette	INFO	Listening on port 35755
+WebDriver BiDi listening on ws://127.0.0.1:33757
+Read port: 35755
+1701136262938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 955356, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:955356): WARNING **: 22:51:04.363: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:33757/devtools/browser/9bc1a514-5b19-4a6e-85c6-156777a6a91a
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+e@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:64740
+h@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:12627
+mergeIntoDeferredBeacon@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:224121
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:205624
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:268321
+v@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:216419
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://s.go-mpulse.net/boomerang/7HHAT-QTF2X-2TRGK-QZBVA-LU3SN, line 10: Script terminated by timeout at:
+setCookie@https://s.go-mpulse.net/boomerang/7HHAT-QTF2X-2TRGK-QZBVA-LU3SN:10:7360
+updateCookie@https://s.go-mpulse.net/boomerang/7HHAT-QTF2X-2TRGK-QZBVA-LU3SN:10:114442
+page_unload@https://s.go-mpulse.net/boomerang/7HHAT-QTF2X-2TRGK-QZBVA-LU3SN:10:121790
+e@https://s.go-mpulse.net/boomerang/7HHAT-QTF2X-2TRGK-QZBVA-LU3SN:10:20152
+
+1701136294299	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701136389666	geckodriver	INFO	Listening on 127.0.0.1:47083
+1701136390224	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemoGgTb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701136390911	Marionette	INFO	Marionette enabled
+1701136391046	Marionette	INFO	Listening on port 32785
+WebDriver BiDi listening on ws://127.0.0.1:55755
+Read port: 32785
+1701136391446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 956475, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:956475): WARNING **: 22:53:12.749: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55755/devtools/browser/71f6516d-dcee-4172-ab7a-f7ad12fd3a7c
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 258: Script terminated by timeout at:
+Oi@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:258:338
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:564:204
+aa.Jm/k/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:296:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:299:350
+k@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:107
+c@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:346:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:347:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:144
+c@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:575:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:387:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:390:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:388:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:385:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701136421633	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
