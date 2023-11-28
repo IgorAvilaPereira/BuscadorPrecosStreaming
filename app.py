@@ -25,10 +25,14 @@ def main(page):
     # method_list = ["primeVideo", "appleTvPlus"]    
     method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay", "discoveryPlus", "disneyPlus"]    
     streamings = []
-    for method in method_list:
-        streamings.append(dict(name = method, price = float(eval("buscador."+method+"()"))))                        
-    streamings = sorted(streamings, key=lambda k: k['price'])          
-
+    for method in method_list:        
+        price = float(eval("buscador."+method+"()"))
+        streamings.append(dict(name = method, price = price))                        
+        if (price != sys.maxsize):
+            tx.value = "Carregando Preços Atualizados:"+method+"..."
+            page.update()
+    
+    streamings = sorted(streamings, key=lambda k: k['price'])                  
     tx.visible = False
     images_loading.visible = False
 
