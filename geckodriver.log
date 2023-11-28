@@ -8186,3 +8186,88 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1701200701286	geckodriver	INFO	Listening on 127.0.0.1:55523
+1701200701565	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePwV1QI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701200703112	Marionette	INFO	Marionette enabled
+1701200703349	Marionette	INFO	Listening on port 35419
+Read port: 35419
+WebDriver BiDi listening on ws://127.0.0.1:41809
+1701200703581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 189394, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:189394): WARNING **: 16:45:06.406: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:41809/devtools/browser/f334354b-c58b-4841-9d7a-77626e0fdc72
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+1701200733364	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+nrWrapper@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:14255
+
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c, line 334: Script terminated by timeout at:
+Am@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:334:460
+Em@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:334:616
+Fm@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:337:203
+Hm@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:334:685
+Um@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:339:393
+SE@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:544:394
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:576:380
+aa.Jm/k/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:572:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:295:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:298:350
+k@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:572:107
+c@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:345:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:346:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:572:144
+c@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:591:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:386:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:389:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:387:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:384:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:592:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:542:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-G5YX0X0P68&l=dataLayer&cx=c:541:420
+invokeTask@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:7854
+runTask@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:3206
+invokeTask@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:8911
+ue@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:21715
+re@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22142
+De@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22315
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c, line 355: Script terminated by timeout at:
+jp@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:355:769
+fq@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:358:766
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:520:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:470:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:469:420
+nrWrapper@https://www.discoveryplus.com/br:2:29516
+

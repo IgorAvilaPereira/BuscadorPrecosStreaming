@@ -155,7 +155,7 @@ class BuscadorPrecosStreaming:
     def paramountPlus(self) -> float:
         try:
             self.driver.get("https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB")
-            sleep(3)
+            # sleep(3)
             elem = self.driver.find_element(By.XPATH, "/html/body/main/section[1]/section/div/div/div[1]/strong[2]")
             # print("Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip())
             return elem.text.split("R$")[1].split("/mês")[0].replace(",",".").strip()
