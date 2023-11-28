@@ -177,9 +177,9 @@ if __name__ == "__main__":
     # print(buscador.hboMax())     
     # print(buscador.playplus())        
     # print(buscador.netFlix())       
-    # print(buscador.paramount())    
 
     # bug
+    # print(buscador.paramount())    
     # print(buscador.starplus())   
     # print(buscador.disneyStarLionsgate())        
     # print(buscador.discovery())    

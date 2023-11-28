@@ -1257,3 +1257,4 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:46693/devtools/browser/9d8155d5-583e-41b5-8990-ca777b8c937c
 JavaScript error: , line 0: uncaught exception: no values to set
 JavaScript error: , line 0: uncaught exception: no values to set
+1701130570852	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
