@@ -21,8 +21,8 @@ def main(page):
     page.update()
 
     buscador = BuscadorPrecosStreaming(False)    
-    # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]    
-    # method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix"]    
+    # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]        
+    # method_list = ["primeVideo", "appleTvPlus"]    
     method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay", "discoveryPlus", "disneyPlus"]    
     streamings = []
     for method in method_list:
@@ -50,29 +50,26 @@ def main(page):
         sum = 0
         i = 0
         name = ""
-        price = 0
-        # for i in range(0, int(e.control.value)):
-        while (sum <= int(e.control.value) and i < len(streamings)):           
+        price = 0        
+        while (sum <= int(e.control.value) and i < len(streamings)):                       
             for key, val in streamings[i].items():
                 if key == 'name':
                     name = val
                 elif key == 'price':
-                    price = float(val)
-            
-            print(name+":"+str(price))
-            
+                    price = float(val)  
             sum = sum + price
-            
-            images.controls.append(
-                ft.Image(
-                    # src=f"https://picsum.photos/150/150?{i}",
-                    src=f"assets/"+name+".png",
-                    fit=ft.ImageFit.NONE,
-                    repeat=ft.ImageRepeat.NO_REPEAT,
-                    border_radius=ft.border_radius.all(10),
+            if (sum <= int(e.control.value)):            
+                images.controls.append(
+                    ft.Image(
+                        # src=f"https://picsum.photos/150/150?{i}",
+                        src=f"assets/"+name+".png",
+                        fit=ft.ImageFit.NONE,
+                        repeat=ft.ImageRepeat.NO_REPEAT,
+                        border_radius=ft.border_radius.all(10),
+                    )
                 )
-            )
-            images.controls.append(ft.Text("R$ "+str(price)))
+                images.controls.append(ft.Text("R$ "+str(price)))
+
             i = i + 1  
         page.update()
         
