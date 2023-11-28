@@ -26,7 +26,7 @@ Extraia o zip baixado através do link https://github.com/IgorAvilaPereira/Busca
 ```
 pip install -r requirements
 pip install pyinstaller
-flet pack app.py
+flet pack app.py --add-data "assets:assets"
 ```
 O executável será gerado dentro da pasta **/dist**.
 
