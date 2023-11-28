@@ -184,9 +184,8 @@ class BuscadorPrecosStreaming:
         except:
             print("Problema com a PlayPlus")
             return sys.maxsize
-    # bug
-    def discovery(self) -> str:
-        self.driver.get("https://www.discoveryplus.com/br/")
-        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/main/section[7]/div[3]/ul[1]/li[2]/div[3]")
-        # print("Discovery+:"+elem.text)
-        return "Discovery+:"+elem.text
+    
+    def discoveryPlus(self) -> float:
+        self.driver.get("https://www.discoveryplus.com/br")
+        elem = self.driver.find_element(By.XPATH, "/html/body/div/main/section[7]/div[3]/ul[1]/li[2]/div[3]")        
+        return elem.text.replace("R$","").replace(",", ".").replace("/mês", "").strip()

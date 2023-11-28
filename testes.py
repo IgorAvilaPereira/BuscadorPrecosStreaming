@@ -2,7 +2,7 @@ from buscador import *
 
 if __name__ == "__main__":          
     buscador = BuscadorPrecosStreaming(True)    
-    print(buscador.paramountPlus())
+    print(buscador.discoveryPlus())
 
 #     # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]
 #     # method_list = ["primeVideo", "appleTvPlus", "hboMax", "playplus", "netFlix"]    

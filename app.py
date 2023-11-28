@@ -23,7 +23,7 @@ def main(page):
     buscador = BuscadorPrecosStreaming(False)    
     # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]    
     # method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix"]    
-    method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay"]    
+    method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay", "discoveryPlus"]    
     streamings = []
     for method in method_list:
         streamings.append(dict(name = method, price = float(eval("buscador."+method+"()"))))                        
