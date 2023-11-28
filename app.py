@@ -233,7 +233,7 @@ def main(page):
     )
   
     def slider_changed(e):
-        t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"   
+        t.value = f"Orçamento Mensal para Entretenimento: R$ {int(e.control.value)}"   
         images.controls = []        
         if (int(e.control.value) == 0):
             page.update()
