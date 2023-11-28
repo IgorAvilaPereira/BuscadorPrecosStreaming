@@ -11,34 +11,21 @@ from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
 
-from selenium import webdriver                  # Import selenium into your program
-from selenium.webdriver.common.keys import Keys # Import keys of selenium web driver
-import geckodriver_autoinstaller                # import Geckodriver into your program
-
-
-# class Streaming:
-
-#     def __init__(self, nome, preco, logo):
-#         self.nome = nome
-#         self.preco = preco
-#         self.logo = logo
-
-#     def __repr__(self) -> str:
-#         return self.nome+";"+self.preco+";"+self.logo
-
+from selenium import webdriver                  
+from selenium.webdriver.common.keys import Keys 
+import geckodriver_autoinstaller                
 class BuscadorPrecosStreaming:            
 
-    def __init__(self, assistir = True): 
-        
-        geckodriver_autoinstaller.install()             # Get the latest version every day on 1st excution of your program
+    def __init__(self, assistir = True):         
+        geckodriver_autoinstaller.install()             
         # se quiser não ver nada
         if (assistir is False):
             fireFoxOptions = webdriver.FirefoxOptions()            
             # fireFoxOptions.headless = True
             fireFoxOptions.add_argument('-headless')
-            self.driver = webdriver.Firefox(options=fireFoxOptions)                    # initiate the firefox driver         
+            self.driver = webdriver.Firefox(options=fireFoxOptions)                            
         else:                                     
-            self.driver = webdriver.Firefox()                    # initiate the firefox driver
+            self.driver = webdriver.Firefox()                  
             # se quiser ver a execucao no navegador
             # self.driver = webdriver.Chrome()
 
@@ -166,10 +153,7 @@ class BuscadorPrecosStreaming:
         # print("Discovery+:"+elem.text)
         return "Discovery+:"+elem.text
 
-
-# python3.10 app.py 
 if __name__ == "__main__":          
-
     buscador = BuscadorPrecosStreaming(False)    
     print("Obtendo valores...")
     # print(buscador.primeVideo())
@@ -183,35 +167,14 @@ if __name__ == "__main__":
     # print(buscador.starplus())   
     # print(buscador.disneyStarLionsgate())        
     # print(buscador.discovery())    
- 
-# # import flet as ft
-# # def main(page: ft.Page):
-# #     buscador = BuscadorPrecosStreaming()
-# #     resultado = buscador.primeVideo()
-# #     resultado = resultado + "\n" + buscador.hboMax()  
-# #     resultado = resultado + "\n" + buscador.appleTv()
-# #     resultado = resultado + "\n" + buscador.paramount()
-# #     resultado = resultado + "\n" + buscador.disneyStarLionsgate()
-# #     resultado = resultado + "\n" + buscador.playplus()
-# #     resultado = resultado + "\n" + buscador.discovery()
-# #     resultado = resultado + "\n" + buscador.netFlix()    
-# #     t = ft.Text(value=resultado, color="black")
-# #     page.controls.append(t)
-# # ft.app(target=main)
-
-
 
 # import flet as ft
-
 # def main(page):
-
 #     def slider_changed(e):
 #         t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"
 #         page.update()
-
 #     t = ft.Text()
 #     page.add(
 #         ft.Text("Qual é seu orçamento mensal para Streamings?"),
 #         ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
-
 # ft.app(target=main)
