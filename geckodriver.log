@@ -984,3 +984,4 @@ t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:3
 
 JavaScript error: , line 0: uncaught exception: no values to set
 JavaScript error: , line 0: uncaught exception: no values to set
+1701128794074	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

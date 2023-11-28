@@ -160,64 +160,73 @@ class BuscadorPrecosStreaming:
 
 
 # python3.10 app.py 
-if __name__ == "__main__":          
+# if __name__ == "__main__":          
 
-    buscador = BuscadorPrecosStreaming(False)
+#     buscador = BuscadorPrecosStreaming(False)
     
-    print("Obtendo valores...")
-    print(buscador.primeVideo())
-    # bug
-    # print(buscador.hboMax()) 
+#     print("Obtendo valores...")
+#     print(buscador.primeVideo())
+#     # bug
+#     # print(buscador.hboMax()) 
+#     print(buscador.appleTv())
+#     print(buscador.paramount())    
+#     # bug
+#     # print(buscador.disneyStarLionsgate())
+#     # bug
+#     # print(buscador.playplus())    
+#     # bug
+#     # print(buscador.discovery())
+#     #  bug
+#     # print(buscador.netFlix())
 
-    print(buscador.appleTv())
-    print(buscador.paramount())    
-    # bug
-    # print(buscador.disneyStarLionsgate())
-
-    # bug
-    # print(buscador.playplus())
-    
-    # bug
-    # print(buscador.discovery())
-
-    #  bug
-    # print(buscador.netFlix())
-
-
-    # from tkinter import *
-    # from tkinter import ttk
-    # from tkinter import messagebox
-    # root = Tk()
-    # root.geometry("400x400")
-    # frm = ttk.Frame(root, padding=10)
-    # frm.grid()
-    # messagebox.showinfo("BuscadorPreçosStreaming", "Obtendo Valores (espere algum tempo)")
-    # ttk.Label(frm, text=buscador.primeVideo()).grid(column=0, row=0)
-    # ttk.Label(frm, text=buscador.hboMax()).grid(column=0, row=1)
-    # ttk.Label(frm, text=buscador.appleTv()).grid(column=0, row=2)
-    # ttk.Label(frm, text=buscador.paramount()).grid(column=0, row=3)
-    # ttk.Label(frm, text=buscador.disneyStarLionsgate()).grid(column=0, row=4)
-    # ttk.Label(frm, text=buscador.playplus()).grid(column=0, row=5)
-    # ttk.Label(frm, text=buscador.discovery()).grid(column=0, row=6)
-    # ttk.Label(frm, text=buscador.netFlix()).grid(column=0, row=7)
-    # ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=8)
-    # root.mainloop()
+#     # from tkinter import *
+#     # from tkinter import ttk
+#     # from tkinter import messagebox
+#     # root = Tk()
+#     # root.geometry("400x400")
+#     # frm = ttk.Frame(root, padding=10)
+#     # frm.grid()
+#     # messagebox.showinfo("BuscadorPreçosStreaming", "Obtendo Valores (espere algum tempo)")
+#     # ttk.Label(frm, text=buscador.primeVideo()).grid(column=0, row=0)
+#     # ttk.Label(frm, text=buscador.hboMax()).grid(column=0, row=1)
+#     # ttk.Label(frm, text=buscador.appleTv()).grid(column=0, row=2)
+#     # ttk.Label(frm, text=buscador.paramount()).grid(column=0, row=3)
+#     # ttk.Label(frm, text=buscador.disneyStarLionsgate()).grid(column=0, row=4)
+#     # ttk.Label(frm, text=buscador.playplus()).grid(column=0, row=5)
+#     # ttk.Label(frm, text=buscador.discovery()).grid(column=0, row=6)
+#     # ttk.Label(frm, text=buscador.netFlix()).grid(column=0, row=7)
+#     # ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=8)
+#     # root.mainloop()
 
  
-# import flet as ft
-# def main(page: ft.Page):
-#     buscador = BuscadorPrecosStreaming()
-#     resultado = buscador.primeVideo()
-#     resultado = resultado + "\n" + buscador.hboMax()  
-#     resultado = resultado + "\n" + buscador.appleTv()
-#     resultado = resultado + "\n" + buscador.paramount()
-#     resultado = resultado + "\n" + buscador.disneyStarLionsgate()
-#     resultado = resultado + "\n" + buscador.playplus()
-#     resultado = resultado + "\n" + buscador.discovery()
-#     resultado = resultado + "\n" + buscador.netFlix()    
-#     t = ft.Text(value=resultado, color="black")
-#     page.controls.append(t)
-# ft.app(target=main)
+# # import flet as ft
+# # def main(page: ft.Page):
+# #     buscador = BuscadorPrecosStreaming()
+# #     resultado = buscador.primeVideo()
+# #     resultado = resultado + "\n" + buscador.hboMax()  
+# #     resultado = resultado + "\n" + buscador.appleTv()
+# #     resultado = resultado + "\n" + buscador.paramount()
+# #     resultado = resultado + "\n" + buscador.disneyStarLionsgate()
+# #     resultado = resultado + "\n" + buscador.playplus()
+# #     resultado = resultado + "\n" + buscador.discovery()
+# #     resultado = resultado + "\n" + buscador.netFlix()    
+# #     t = ft.Text(value=resultado, color="black")
+# #     page.controls.append(t)
+# # ft.app(target=main)
 
 
 
+import flet as ft
+
+def main(page):
+
+    def slider_changed(e):
+        t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"
+        page.update()
+
+    t = ft.Text()
+    page.add(
+        ft.Text("Qual é seu orçamento mensal para Streamings?"),
+        ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
+
+ft.app(target=main)
