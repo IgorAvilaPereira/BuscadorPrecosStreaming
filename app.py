@@ -179,8 +179,20 @@ import flet as ft
 def main(page):
     # page.title = "GridView Example"
     page.padding = 50
+    
     tx = ft.Text("Carregando Preços dos Streamings. Espere um pouco...")
+    
+    images_loading = ft.GridView(
+        expand=1,
+        runs_count=5,
+        max_extent=150,
+        child_aspect_ratio=1.0,
+        spacing=5,
+        run_spacing=5
+    )
+    images_loading.controls.append(ft.Image(src=f"assets/icons/loading.gif", width=100, height=100, fit=ft.ImageFit.CONTAIN))    
     page.add(tx)
+    page.add(images_loading)
     page.update()
 
     buscador = BuscadorPrecosStreaming(False)    
@@ -192,7 +204,7 @@ def main(page):
     streamings = sorted(streamings, key=lambda k: k['price'])          
 
     tx.visible = False
-
+    images_loading.visible = False
 
     images = ft.GridView(
         expand=1,
@@ -241,10 +253,11 @@ def main(page):
 
     page.add(
         ft.Text("Qual é seu orçamento mensal para Streamings?"),
-        ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
-    
+        ft.Slider(min=0, max=500, divisions=100, label="R$ {value}", on_change=slider_changed), t)    
     page.add(images)
     page.update()
 
-
+# desktop
 ft.app(target=main)
+# web
+# ft.app(target=main, view=ft.AppView.WEB_BROWSER)

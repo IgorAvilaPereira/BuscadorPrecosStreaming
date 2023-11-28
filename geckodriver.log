@@ -2514,3 +2514,345 @@ aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&c
 
 JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
 1701136421633	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701136608030	geckodriver	INFO	Listening on 127.0.0.1:39611
+1701136608587	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefH76Hr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701136609492	Marionette	INFO	Marionette enabled
+1701136609685	Marionette	INFO	Listening on port 37193
+WebDriver BiDi listening on ws://127.0.0.1:55631
+Read port: 37193
+1701136610247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 958556, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:958556): WARNING **: 22:56:52.817: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:55631/devtools/browser/63634a66-8531-484e-b370-70adeed5bac5
+1701136642482	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701136740515	geckodriver	INFO	Listening on 127.0.0.1:48377
+1701136741096	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "44771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekoNAXJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701136742424	Marionette	INFO	Marionette enabled
+1701136742644	Marionette	INFO	Listening on port 35903
+WebDriver BiDi listening on ws://127.0.0.1:44771
+Read port: 35903
+1701136743313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 959373, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:959373): WARNING **: 22:59:06.953: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:44771/devtools/browser/9abb0e0d-47a2-4022-b87e-3597aeff3d69
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 277: Script terminated by timeout at:
+@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:4541
+U/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:5994
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+1701136772591	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1701136861739	geckodriver	INFO	Listening on 127.0.0.1:37945
+1701136862247	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNaD2KV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701136863134	Marionette	INFO	Marionette enabled
+1701136863283	Marionette	INFO	Listening on port 42747
+WebDriver BiDi listening on ws://127.0.0.1:58365
+Read port: 42747
+1701136863774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 961237, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:961237): WARNING **: 23:01:05.900: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58365/devtools/browser/b3b8fbcc-6b12-457c-8027-d2525696c5fb
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 277: Script terminated by timeout at:
+D@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:6473
+N@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:6504
+q/this.log@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:7411
+I@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:1020
+@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:1813
+i/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:258:136
+pn@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:736:23657
+gn@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:736:23841
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+t.emit@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:1333
+U/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:6001
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 388: Script terminated by timeout at:
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:388:54
+fq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:385:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+1701136893316	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701137117742	geckodriver	INFO	Listening on 127.0.0.1:60621
+1701137118216	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileq4idYL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701137119204	Marionette	INFO	Marionette enabled
+1701137119395	Marionette	INFO	Listening on port 43965
+Read port: 43965
+WebDriver BiDi listening on ws://127.0.0.1:58289
+1701137119576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 962635, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:962635): WARNING **: 23:05:22.152: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58289/devtools/browser/55bca433-44ff-464c-bb97-ce12463b6996
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 736: Script terminated by timeout at:
+r/this.recordMetric@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:736:8100
+I@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:1020
+@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:1813
+i/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:258:136
+g@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:736:11088
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+t.emit@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:1333
+x@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:5801
+D/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:277:686
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+Y@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:63883
+e@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:10501
+c@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:10590
+j@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:12248
+h@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:12685
+mergeIntoDeferredBeacon@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:224121
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:205624
+value@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:268321
+v@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:216419
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 390: Script terminated by timeout at:
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:390:440
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:117
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+1701137149546	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701137279268	geckodriver	INFO	Listening on 127.0.0.1:47075
+1701137279858	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "52671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileH96zbN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701137281281	Marionette	INFO	Marionette enabled
+1701137281539	Marionette	INFO	Listening on port 44923
+Read port: 44923
+WebDriver BiDi listening on ws://127.0.0.1:52671
+1701137281866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 963975, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:963975): WARNING **: 23:08:04.459: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:52671/devtools/browser/65fc0fc4-b443-497d-9b61-92c2f004b482
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 512: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:512:38482
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42106
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 173: Script terminated by timeout at:
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1161
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+eb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:375
+Sd/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:192:384
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+K@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1429
+he@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:194:326
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+K@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1429
+vd@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:181:701
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+K@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1429
+$d@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:193:279
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+eb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:375
+Sd/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:192:384
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+wd@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:184:67
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+K@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1429
+he@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:194:326
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+K@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1429
+$d@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:193:279
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+eb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:375
+Sd/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:192:384
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+eb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:375
+Id@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:187:73
+Nd@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:190:137
+Qd@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:189:204
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+fb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:576
+eb@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:157:375
+Sd/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:192:384
+ed.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:173:1181
+PG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:582:690
+Hp@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:384:231
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:570:212
+aa.Jm/k/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:296:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:299:350
+k@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:107
+c@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:346:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:347:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:556:144
+c@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:575:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:387:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:390:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:388:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:385:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js, line 1: Script terminated by timeout at:
+64448/Sa/<@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:56337
+Io@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:68333
+jo@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:69835
+Hu@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:113676
+Pi@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:99861
+xi@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:99789
+_i@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:99650
+vi@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:96616
+64448/Ql/<@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:45995
+60053/t.unstable_runWithPriority@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:130400
+Wl@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:45772
+Ql@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:45942
+Hl@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:45875
+fi@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:93985
+enqueueSetState@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:49893
+72408/v.prototype.setState@https://www.hbomax.com/_next/static/chunks/framework-3af989d3dbeb77832f99.js:1:121846
+12901/n/he<@https://www.hbomax.com/_next/static/chunks/58-92fb2f1ba9da7ef7c09b.js:1:15089
+y.OptanonWrapper@https://www.hbomax.com/js/ccpa/user-consent.min.js:1:30269
+xr.prototype.executeOptanonWrapper@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:344520
+Fr.prototype.windowLoadBanner/</<@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:366237
+g/t/</<@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:1630
+g/t/<@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:1735
+p/<@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:673
+p@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:452
+Fr.prototype.windowLoadBanner@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:364972
+r@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:58801
+Kt.prototype.trigger@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:58953
+Ro.prototype.loadBanner@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:138639
+zr.prototype.LoadBanner@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:369351
+@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:391957
+g/t/</<@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:1630
+g/t/<@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:1735
+o@https://cdn.cookielaw.org/scripttemplates/202211.1.0/otBannerSdk.js:7:506
+
+1701137311623	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701137460994	geckodriver	INFO	Listening on 127.0.0.1:47073
+1701137462277	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "37775" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMZrwTY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701137465483	Marionette	INFO	Marionette enabled
+1701137466109	Marionette	INFO	Listening on port 40463
+Read port: 40463
+WebDriver BiDi listening on ws://127.0.0.1:37775
+1701137466584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 967458, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:967458): WARNING **: 23:11:12.370: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:37775/devtools/browser/5eab8684-5412-498c-a1c8-d2e0b67370b6
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 567: Script terminated by timeout at:
+i@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:567:36569
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:567:37048
+
+JavaScript warning: https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js, line 1: Script terminated by timeout at:
+t@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:26879
+a@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:27078
+require<[9]</oe<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:38561
+require<[9]</f/</<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28945
+require<[9]</f/<@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:28917
+syncToCookie@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42039
+triggerNewPage@https://www.apple.com/metrics/ac-analytics/2.19.0/scripts/ac-analytics.js:1:42404
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+1701137495731	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
