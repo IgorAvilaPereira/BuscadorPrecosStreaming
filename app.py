@@ -164,8 +164,8 @@ if __name__ == "__main__":
     print(buscador.netFlix())       
 
     # bug
-    # print(buscador.paramount())    
     # print(buscador.starplus())   
+    # print(buscador.paramount())    
     # print(buscador.disneyStarLionsgate())        
     # print(buscador.discovery())    
 
