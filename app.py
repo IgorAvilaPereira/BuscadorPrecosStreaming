@@ -82,6 +82,7 @@ class BuscadorPrecosStreaming:
         self.driver.get("https://www.hbomax.com/br/pt")
         elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/article/section[4]/div/div/div/div[2]/div[1]/div[3]/div/div[3]/div/div[2]/div[2]/div/div[1]/span[1]")
         # print("HBOMax:"+elem.text+"/mês")
+        # return "HBOMax:"+elem.text
         return "HBOMax:"+elem.text+"/mês"
 
     # bug
@@ -106,13 +107,13 @@ class BuscadorPrecosStreaming:
 
     def netFlix(self) -> str:
         self.driver.get("https://help.netflix.com/pt/node/24926")        
-        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[3]/p")        
+        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[2]/p")        
         resultado = "Netflix:\n"        
         # "Padrão:"
         resultado = resultado + "*"+elem.text        
         # Premium
-        elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[4]/p")        
-        resultado = resultado +"\n"+"*"+elem.text
+        # elem = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div[3]/div[1]/section[2]/div/div/div[3]/ul/li[4]/p")        
+        # resultado = resultado +"\n"+"*"+elem.text
         return resultado
     
 
@@ -139,6 +140,13 @@ class BuscadorPrecosStreaming:
         elem = self.driver.find_element(By.XPATH, "/html/body/main/section[1]/section/div/div/div[1]/strong[1]")
         # print("Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip())
         return "Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip()
+    
+    # bug
+    def starplus(self) -> str:
+        self.driver.get("https://help.starplus.com/pt-BR/article/starplus-pt-br-how-much-does-star-plus-cost")
+        elem = self.driver.find_element(By.XPATH,"/html/body/webruntime-app/lwr-router-container/webruntime-inner-app/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/c-dtcvx_support-theme/div/section/slot/webruntime-router-container/dxp_data_provider-user-data-provider/dxp_data_provider-data-proxy/community_layout-slds-flexible-layout/div/webruntime-component-container[2]/community_layout-section/div[3]/community_layout-column[1]/div/webruntime-component-container/c-dtcvx_article/div/div[1]/p/p[8]/text()[1]")
+        return "Star+:"+elem.text.strip()
+    
     # bug
     def disneyStarLionsgate(self) -> str:
         self.driver.get("https://www.disneyplus.com/pt-br?cid=DSS-Search-Google-71700000075038504-&s_kwcid=AL!8468!3!576459364510!e!!g!!disney%20plus&gad=1&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zpeDuXapVVyPaZYnHuzmWK0EQ5nfh7WNk_cf-T2Dspmytoku_FKA4aAoKqEALw_wcB&gclsrc=aw.ds")
@@ -148,7 +156,7 @@ class BuscadorPrecosStreaming:
     
     def playplus(self) -> str:
         self.driver.get("https://www.playplus.com/flow/plans")
-        elem = self.driver.find_element(By.XPATH, "/html/body/div[3]/div/div[3]/div/form/div[1]/div/div/div/div/div/div[2]/div[1]/h3")
+        elem = self.driver.find_element(By.XPATH, "/html/body/div[3]/div/div[3]/div/div[1]/div/div/div/div/div/div[2]/div[1]/h3")
         # print("PlayPlus+:"+elem.text)
         return "PlayPlus+:"+elem.text
 
@@ -160,44 +168,21 @@ class BuscadorPrecosStreaming:
 
 
 # python3.10 app.py 
-# if __name__ == "__main__":          
+if __name__ == "__main__":          
 
-#     buscador = BuscadorPrecosStreaming(False)
-    
-#     print("Obtendo valores...")
-#     print(buscador.primeVideo())
-#     # bug
-#     # print(buscador.hboMax()) 
-#     print(buscador.appleTv())
-#     print(buscador.paramount())    
-#     # bug
-#     # print(buscador.disneyStarLionsgate())
-#     # bug
-#     # print(buscador.playplus())    
-#     # bug
-#     # print(buscador.discovery())
-#     #  bug
-#     # print(buscador.netFlix())
+    buscador = BuscadorPrecosStreaming(False)    
+    print("Obtendo valores...")
+    # print(buscador.primeVideo())
+    # print(buscador.appleTv())
+    # print(buscador.hboMax())     
+    # print(buscador.playplus())        
+    # print(buscador.netFlix())       
+    # print(buscador.paramount())    
 
-#     # from tkinter import *
-#     # from tkinter import ttk
-#     # from tkinter import messagebox
-#     # root = Tk()
-#     # root.geometry("400x400")
-#     # frm = ttk.Frame(root, padding=10)
-#     # frm.grid()
-#     # messagebox.showinfo("BuscadorPreçosStreaming", "Obtendo Valores (espere algum tempo)")
-#     # ttk.Label(frm, text=buscador.primeVideo()).grid(column=0, row=0)
-#     # ttk.Label(frm, text=buscador.hboMax()).grid(column=0, row=1)
-#     # ttk.Label(frm, text=buscador.appleTv()).grid(column=0, row=2)
-#     # ttk.Label(frm, text=buscador.paramount()).grid(column=0, row=3)
-#     # ttk.Label(frm, text=buscador.disneyStarLionsgate()).grid(column=0, row=4)
-#     # ttk.Label(frm, text=buscador.playplus()).grid(column=0, row=5)
-#     # ttk.Label(frm, text=buscador.discovery()).grid(column=0, row=6)
-#     # ttk.Label(frm, text=buscador.netFlix()).grid(column=0, row=7)
-#     # ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=8)
-#     # root.mainloop()
-
+    # bug
+    # print(buscador.starplus())   
+    # print(buscador.disneyStarLionsgate())        
+    # print(buscador.discovery())    
  
 # # import flet as ft
 # # def main(page: ft.Page):
@@ -216,17 +201,17 @@ class BuscadorPrecosStreaming:
 
 
 
-import flet as ft
+# import flet as ft
 
-def main(page):
+# def main(page):
 
-    def slider_changed(e):
-        t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"
-        page.update()
+#     def slider_changed(e):
+#         t.value = f"Orçamento Mensal para Entretenimento: R$ {e.control.value}"
+#         page.update()
 
-    t = ft.Text()
-    page.add(
-        ft.Text("Qual é seu orçamento mensal para Streamings?"),
-        ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
+#     t = ft.Text()
+#     page.add(
+#         ft.Text("Qual é seu orçamento mensal para Streamings?"),
+#         ft.Slider(min=0, max=500, divisions=100, label="{value}", on_change=slider_changed), t)
 
-ft.app(target=main)
+# ft.app(target=main)
