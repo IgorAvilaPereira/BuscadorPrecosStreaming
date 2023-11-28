@@ -15,7 +15,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver                  
 from selenium.webdriver.common.keys import Keys 
 import geckodriver_autoinstaller             
-   
+
 class BuscadorPrecosStreaming:            
 
     def __init__(self, assistir = True):         
@@ -47,14 +47,17 @@ class BuscadorPrecosStreaming:
     #     logo = elem.get_attribute("outerHTML")
         
     #     return Streaming(nome, preco, logo)
-
+    
     def globoPlay(self) -> float:
         try:
-            self.driver.get("https://vitrine.globo.com/globoplay?f_area=home&f_cpnt=banner_vendas&f_label=assinatura.assine_ja&url=https:%2F%2Fgloboplay.globo.com%2F&origemId=91628")
-            elem = self.driver.find_element(By.XPATH, "/html/body/app-root/main/app-comparator-modal/section/div[1]/div[2]/div[1]/div[2]/app-parcel-value/span/span[2]")
+            self.driver.get("https://vitrine.globo.com/globoplay")
+            elem = self.driver.find_element(By.XPATH,"/html/body/app-root/main/app-product/app-offer-list[1]/section/div/app-offer-list-carousel/div/app-offer-toggle/div/div/button[1]")
+            elem.click()
+            elem = self.driver.find_element(By.XPATH, "/html/body/app-root/main/app-product/app-offer-list[1]/section/div/app-offer-list-carousel/div/splide/div/div/div/div[1]/app-offer-card/article/div[2]/app-parcel-value/span/span[2]")
             return elem.text.replace("R$", "").replace(",",".").replace("/mês", "").strip()
         except:
             print("Problema com o GloboPlay")
+            # print(elem.text)
             return sys.maxsize    
 
     def primeVideo(self) -> float:        

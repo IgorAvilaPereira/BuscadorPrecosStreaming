@@ -3366,3 +3366,414 @@ JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a483589
 r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
 
 1701173072585	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701173103179	geckodriver	INFO	Listening on 127.0.0.1:55995
+1701173103723	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "32819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilej5QCNC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701173104194	Marionette	INFO	Marionette enabled
+1701173104278	Marionette	INFO	Listening on port 39459
+WebDriver BiDi listening on ws://127.0.0.1:32819
+Read port: 39459
+1701173104521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 62596, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:62596): WARNING **: 09:05:05.425: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:32819/devtools/browser/e3cf9193-d71a-49d8-bd6d-b15816aa7716
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701173137120	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+1701173173984	geckodriver	INFO	Listening on 127.0.0.1:39871
+1701173174536	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "39869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7uV2rE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701173174982	Marionette	INFO	Marionette enabled
+1701173175070	Marionette	INFO	Listening on port 35495
+WebDriver BiDi listening on ws://127.0.0.1:39869
+Read port: 35495
+1701173175311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 63455, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:63455): WARNING **: 09:06:16.171: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39869/devtools/browser/9bc8f894-10a4-4c19-8372-0e63a779c448
+1701173206812	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701173322726	geckodriver	INFO	Listening on 127.0.0.1:36083
+1701173323272	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "50999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3RowbA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701173323730	Marionette	INFO	Marionette enabled
+1701173323840	Marionette	INFO	Listening on port 36769
+WebDriver BiDi listening on ws://127.0.0.1:50999
+Read port: 36769
+1701173324143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 64034, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:64034): WARNING **: 09:08:45.116: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:50999/devtools/browser/9ad52084-1433-4cc6-bc88-7b294138bfd0
+1701173338801	geckodriver	INFO	Listening on 127.0.0.1:50895
+1701173339347	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "40947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2rO46K"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701173339838	Marionette	INFO	Marionette enabled
+1701173339927	Marionette	INFO	Listening on port 33423
+WebDriver BiDi listening on ws://127.0.0.1:40947
+Read port: 33423
+1701173340194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 64408, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:64408): WARNING **: 09:09:01.258: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:40947/devtools/browser/d68559d5-1642-4568-8014-1739f299530a
+1701173357093	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701173371961	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701173909010	geckodriver	INFO	Listening on 127.0.0.1:40701
+1701173909556	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "48579" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyKVnnl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701173910147	Marionette	INFO	Marionette enabled
+1701173910272	Marionette	INFO	Listening on port 39209
+WebDriver BiDi listening on ws://127.0.0.1:48579
+Read port: 39209
+1701173910617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 66693, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:66693): WARNING **: 09:18:31.976: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:48579/devtools/browser/aa2b3420-d4fd-4141-9a28-451c6aed0897
+1701173942218	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701174001234	geckodriver	INFO	Listening on 127.0.0.1:50263
+1701174001789	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36401" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNWq0Hg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701174002380	Marionette	INFO	Marionette enabled
+1701174002475	Marionette	INFO	Listening on port 33979
+Read port: 33979
+WebDriver BiDi listening on ws://127.0.0.1:36401
+1701174002604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 67276, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:67276): WARNING **: 09:20:03.858: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:36401/devtools/browser/57755658-ac05-4bca-a1cf-9dab8f84bc0e
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701174035429	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+1701174047735	geckodriver	INFO	Listening on 127.0.0.1:52341
+1701174048279	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "32853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev93GYt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701174048720	Marionette	INFO	Marionette enabled
+1701174048812	Marionette	INFO	Listening on port 45417
+WebDriver BiDi listening on ws://127.0.0.1:32853
+Read port: 45417
+1701174049113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 67956, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:67956): WARNING **: 09:20:50.129: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:32853/devtools/browser/43025499-34fe-44b4-8b62-5ddfecbe5316
+console.error: ({})
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701174067061	geckodriver	INFO	Listening on 127.0.0.1:47033
+1701174067608	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezWWWVj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701174068575	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701174068769	Marionette	INFO	Listening on port 44321
+WebDriver BiDi listening on ws://127.0.0.1:39523
+Read port: 44321
+1701174069046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:09.864: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:09.864: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:09.864: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:09.864: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:68609): WARNING **: 09:21:10.733: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:39523/devtools/browser/b896d1b7-8c6f-4f4d-ab70-8c4476fbae52
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:11.189: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:11.189: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:11.480: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:11.480: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:11.499: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:11.499: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: ({})
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:13.826: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:13.826: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:14.183: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:14.183: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:14.183: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:14.183: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701174079653	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:30.796: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:30.797: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:30.797: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:30.797: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.125: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.125: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.431: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.431: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.431: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.431: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.431: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.431: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.452: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.452: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.452: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.452: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.452: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.452: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.452: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.452: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.452: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.452: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:31.452: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:31.452: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:32.035: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:32.035: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:32.035: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:32.035: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:32.035: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:32.035: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:32.405: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:32.405: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:32.895: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:32.895: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1701174098593	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+[Parent 68609, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-WARNING **: 09:21:43.900: invalid (NULL) pointer instance
+[Parent 68609, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:68609): GLib-GObject-CRITICAL **: 09:21:43.900: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:728:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:604:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:342:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+1701174178810	geckodriver	INFO	Listening on 127.0.0.1:41639
+1701174179360	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "58397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePsNGJA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701174180379	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701174180693	Marionette	INFO	Listening on port 37647
+WebDriver BiDi listening on ws://127.0.0.1:58397
+Read port: 37647
+1701174180980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:01.861: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:01.861: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:01.861: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:01.861: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 69472, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:69472): WARNING **: 09:23:02.638: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:58397/devtools/browser/06589755-77c3-4778-97e1-dddfdf21d5c2
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:03.018: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:03.018: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:03.331: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:03.331: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:03.357: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:03.357: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: ({})
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:04.548: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:04.548: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[Parent 69472, Main Thread] WARNING: invalid (NULL) pointer instance: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-WARNING **: 09:23:04.548: invalid (NULL) pointer instance
+[Parent 69472, Main Thread] WARNING: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:69472): GLib-GObject-CRITICAL **: 09:23:04.548: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

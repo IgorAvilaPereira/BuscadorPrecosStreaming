@@ -1,7 +1,7 @@
 from buscador import *
 
 if __name__ == "__main__":          
-    buscador = BuscadorPrecosStreaming(False)    
+    buscador = BuscadorPrecosStreaming(True)    
     print(buscador.globoPlay())
 
 #     # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]
