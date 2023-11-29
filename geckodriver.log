@@ -8937,3 +8937,144 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1701259584864	geckodriver	INFO	Listening on 127.0.0.1:34111
+1701259585425	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "52293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileordBzG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701259586044	Marionette	INFO	Marionette enabled
+1701259586175	Marionette	INFO	Listening on port 38869
+WebDriver BiDi listening on ws://127.0.0.1:52293
+Read port: 38869
+1701259586501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 307593, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:307593): WARNING **: 09:06:27.621: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:52293/devtools/browser/ef39e901-601c-4e4e-809f-b58e9585524e
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 638: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:638:262
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c, line 390: Script terminated by timeout at:
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:390:440
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:576:117
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:526:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-XHNLH4V0GQ&l=dataLayer&cx=c:525:420
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:35644
+
+console.error: ({})
+1701259616120	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.clarity.ms/s/0.7.18/clarity.js, line 2: Script terminated by timeout at:
+X@https://www.clarity.ms/s/0.7.18/clarity.js:2:5277
+stop@https://www.clarity.ms/s/0.7.18/clarity.js:2:30618
+ei/<@https://www.clarity.ms/s/0.7.18/clarity.js:2:54199
+Di/<@https://www.clarity.ms/s/0.7.18/clarity.js:2:59851
+Di@https://www.clarity.ms/s/0.7.18/clarity.js:2:59813
+Vn@https://www.clarity.ms/s/0.7.18/clarity.js:2:29356
+ei/<@https://www.clarity.ms/s/0.7.18/clarity.js:2:54199
+
+JavaScript warning: https://www.discoveryplus.com/br, line 2: Script terminated by timeout at:
+nrWrapper@https://www.discoveryplus.com/br:2:29368
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701259696888	geckodriver	INFO	Listening on 127.0.0.1:51769
+1701259697445	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "35585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesM0aUe"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701259698053	Marionette	INFO	Marionette enabled
+1701259698189	Marionette	INFO	Listening on port 43089
+WebDriver BiDi listening on ws://127.0.0.1:35585
+Read port: 43089
+1701259698584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 309289, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:309289): WARNING **: 09:08:19.613: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:35585/devtools/browser/6c252b3b-7a5a-40a2-9b0f-b8baa255f32f
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 638: Script terminated by timeout at:
+l@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:638:262
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701259728101	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: https://www.paramountplus.com/account/assets/build/js/allAccessUpsell-afedc24f2db24f77c3f7.min.js, line 2: Error: Request aborted
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js, line 1: Script terminated by timeout at:
+De@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22303
+
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c, line 308: Script terminated by timeout at:
+Am@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:308:396
+Em@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:308:616
+Fm@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:311:203
+Hm@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:308:685
+Um@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:313:393
+bF@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:475:94
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:505:142
+aa.Jm/k/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:500:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:269:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:272:350
+k@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:500:107
+c@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:319:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:320:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:500:144
+c@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:519:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:360:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:363:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:361:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:358:789
+iG/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:520:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:470:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:469:420
+nrWrapper@https://www.discoveryplus.com/br:2:29516
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
