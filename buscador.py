@@ -59,7 +59,7 @@ class BuscadorPrecosStreaming:
         except:
             print("Problema com o GloboPlay")
             # print(elem.text)
-            return sys.maxsize    
+            return -1
 
     def primeVideo(self) -> float:        
         try:
@@ -69,7 +69,7 @@ class BuscadorPrecosStreaming:
             return result.replace("month", "mês").replace("year", "ano").replace("or", "ou").replace(". Cancel anytime)", "").split("/mês")[0].replace("R$","").replace(",", ".")
         except:
             print("Problema com o PrimeVideo")
-            return sys.maxsize
+            return -1
 
     # def hboMaxStreaming(self) -> Streaming:        
     #     nome = "HBOMax"
@@ -92,7 +92,7 @@ class BuscadorPrecosStreaming:
             return elem.text.replace(",", ".").replace("R$","").strip()
         except:
             print("Problema com a HboMax")
-            return sys.maxsize
+            return -1
 
 
     # bug
@@ -127,7 +127,7 @@ class BuscadorPrecosStreaming:
             return elem.text.replace("Padrão:", "").replace("R$","").replace(",", ".").split("/mês")[0].strip()      
         except:
             print("Problema com a NetFlix")
-            return sys.maxsize
+            return -1
     
 
     # def appleTvStreaming(self) -> Streaming:
@@ -150,8 +150,8 @@ class BuscadorPrecosStreaming:
             return elem.text.replace("por mês", "").replace("R$","").replace(",", ".").strip()
         except:
             print("Problema com a AppleTv+")
-            return sys.maxsize
-    
+            return -1
+    # bug
     def paramountPlus(self) -> float:
         try:
             self.driver.get("https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB")
@@ -160,8 +160,8 @@ class BuscadorPrecosStreaming:
             # print("Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip())
             return elem.text.split("R$")[1].split("/mês")[0].replace(",",".").strip()
         except:
-            print("Problema com o Paramount+")
-            return sys.maxsize
+            print("Problema com o Paramount+"+str(sys.maxsize))
+            return -1
      
     def disneyPlus(self) -> float:
         try:
@@ -170,7 +170,7 @@ class BuscadorPrecosStreaming:
             return elem.text.split("R$")[1].replace(".","").replace(",",".").strip()        
         except:
             print("Problema com o Disney+")
-            return sys.maxsize
+            return -1
     
     def playplus(self) -> float:
         try:
@@ -180,7 +180,7 @@ class BuscadorPrecosStreaming:
             return elem.text.replace("R$", "").replace(",",".").replace("**", "").strip()
         except:
             print("Problema com a PlayPlus")
-            return sys.maxsize
+            return -1
     
     def discoveryPlus(self) -> float:
         try:
@@ -189,7 +189,7 @@ class BuscadorPrecosStreaming:
             return elem.text.replace("R$","").replace(",", ".").replace("/mês", "").strip()
         except:
             print("Problema com o Discovery+")
-            return sys.maxsize    
+            return -1
     
     # bug
     def starplus(self) -> str:        

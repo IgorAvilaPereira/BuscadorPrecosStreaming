@@ -22,29 +22,37 @@ def main(page):
 
     buscador = BuscadorPrecosStreaming(False)    
     # method_list = [method for method in dir(BuscadorPrecosStreaming) if method.startswith('__') is False]        
-    # method_list = ["primeVideo", "appleTvPlus"]    
-    method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay", "discoveryPlus", "disneyPlus"]    
+    method_list = ["paramountPlus"]    
+    # method_list = ["primeVideo", "appleTvPlus", "playplus", "hboMax", "netFlix", "paramountPlus", "globoPlay", "discoveryPlus", "disneyPlus"]    
     streamings = []
-    for method in method_list:        
-        # print(method)
-        price = float(eval("buscador."+method+"()"))
-        streamings.append(dict(name = method, price = price))                        
-        if (price != sys.maxsize):
-            tx.value = "Carregando Preços Atualizados: "+method+"..."
-            page.update()
-    
-    streamings = sorted(streamings, key=lambda k: k['price'])                  
-    tx.visible = False
-    images_loading.visible = False
+    for method in method_list:                
+        price = float(eval("buscador."+method+"()"))                
+        if (price != -1):
+            tx.value = "Atualizando mensalidade dos Streamings: "+method+"..."
+            streamings.append(dict(name = method, price = price))
+            page.update()    
 
-    images = ft.GridView(
-        expand=1,
-        runs_count=5,
-        max_extent=150,
-        child_aspect_ratio=1.0,
-        spacing=5,
-        run_spacing=5,
-    )
+    if (len(streamings)>0):
+        streamings = sorted(streamings, key=lambda k: k['price'])                  
+        tx.visible = False
+        images_loading.visible = False
+        images = ft.GridView(
+            expand=1,
+            runs_count=5,
+            max_extent=150,
+            child_aspect_ratio=1.0,
+            spacing=5,
+            run_spacing=5,
+        )                
+        t = ft.Text()
+        page.add(
+            ft.Text("Qual é seu orçamento mensal para Streamings?"),
+            ft.Slider(min=0, max=500, divisions=100, label="R$ {value}", on_change=slider_changed), t)    
+        page.add(images)
+        page.update()
+    else:
+        tx.value = "Problema de Atualização: Nenhuma mensalidade foi obtida.\nVerifique sua conexão com a internet"
+        page.update()    
   
     def slider_changed(e):
         t.value = f"Orçamento Mensal para Entretenimento: R$ {int(e.control.value)}"   
@@ -74,22 +82,10 @@ def main(page):
                     )
                 )
                 images.controls.append(ft.Text("R$ "+str(price)))
-
             i = i + 1  
         page.update()
-        
-    # t = ft.Text(style  = ft.FontWeight.BOLD)
-    t = ft.Text()
-
-    page.add(
-        ft.Text("Qual é seu orçamento mensal para Streamings?"),
-        ft.Slider(min=0, max=500, divisions=100, label="R$ {value}", on_change=slider_changed), t)    
-    page.add(images)
-    page.update()
-
 # desktop
 # pipreqs ./
 ft.app(target=main, assets_dir="assets")
-
 # web
 # ft.app(target=main, view=ft.AppView.WEB_BROWSER)
