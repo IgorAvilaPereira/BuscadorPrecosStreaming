@@ -9078,3 +9078,78 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1701346705945	geckodriver	INFO	Listening on 127.0.0.1:39071
+1701346706323	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "38597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelqTBvO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701346707071	Marionette	INFO	Marionette enabled
+1701346707220	Marionette	INFO	Listening on port 40541
+Read port: 40541
+WebDriver BiDi listening on ws://127.0.0.1:38597
+1701346707359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[Parent 99234, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:99234): WARNING **: 09:18:28.879: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+DevTools listening on ws://127.0.0.1:38597/devtools/browser/0d3e7fa1-0368-4a6c-9baf-36a828b0fb89
+JavaScript warning: https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root, line 518: Script terminated by timeout at:
+u@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:518:48768
+./src/entrypoints/hydration/inline-body-end-scripts.tsx/</</<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:518:48851
+y/<@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:518:38611
+t@https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root:518:38482
+
+JavaScript error: https://www.playplus.com/Scripts/Home/bootstrap3-4-1.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+1701346737092	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: https://www.hbomax.com/br/pt, line 5101: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js, line 1: Script terminated by timeout at:
+38745/770/p/<@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:75298
+r@https://www.hbomax.com/_next/static/chunks/main-84289a48358951d4bc90.js:1:74801
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript error: , line 0: uncaught exception: no values to set
+JavaScript warning: https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB, line 11: Script terminated by timeout at:
+p@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:8213
+O/<@https://www.paramountplus.com/br/?ftag=IPP-02-10aab2c&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zskUAbnnSwmUK_vYhtiL9AQYHabEJ0jugYJl114p1m_P7pxhMTSakaAvIAEALw_wcB:11:35644
+
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js, line 1: Script terminated by timeout at:
+De@https://vitrine.globo.com/polyfills.420ef9dc2cdbb0f0.js:1:22303
+
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=vitrine.globo.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22globo.com%22,%22topUrl%22:%22vitrine.globo.com%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c, line 277: Script terminated by timeout at:
+e@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:277:136
+fl@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:277:213
+aG@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:511:171
+aa.Km@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:500:258
+aa.Jm/h/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:493:121
+Qj@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:264:342
+dk@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:267:350
+h@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:493:107
+c@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:314:169
+yn@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:315:269
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:493:144
+c@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:512:751
+nq@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:355:298
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:358:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:356:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:353:789
+hG/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:513:153
+aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:465:126
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:464:420
+nrWrapper@https://www.discoveryplus.com/br:2:29516
+

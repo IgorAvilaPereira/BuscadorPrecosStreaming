@@ -160,7 +160,7 @@ class BuscadorPrecosStreaming:
             # print("Paramount+:"+elem.text.replace("Cancele a qualquer momento.", "").strip())
             return elem.text.split("R$")[1].split("/mês")[0].replace(",",".").strip()
         except:
-            print("Problema com o Paramount+"+str(sys.maxsize))
+            print("Problema com o Paramount")
             return -1
      
     def disneyPlus(self) -> float:
