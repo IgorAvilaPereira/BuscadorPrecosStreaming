@@ -9153,3 +9153,4 @@ aa.Ik/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=
 aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-BHXXQ6BRXY&l=dataLayer&cx=c:464:420
 nrWrapper@https://www.discoveryplus.com/br:2:29516
 
+1701433136988	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
